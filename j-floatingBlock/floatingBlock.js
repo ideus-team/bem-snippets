@@ -1,5 +1,5 @@
 /*
-** floatingBlock.js: This js code allow as make floating(sticky) block
+** floatingBlock.js: This js-code allows as make floating(sticky) block
 ** Example of using this code we can see here http://renfloor.com/travertine.html
 */
 function floatingSidebar(){
