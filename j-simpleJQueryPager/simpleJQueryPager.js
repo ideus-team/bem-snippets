@@ -31,6 +31,6 @@ function definePostsForPage(elem){
   var indexPagerItem = $(".b-pager__item").index(elem);//Find index of each pager item
   var start = indexPagerItem*5; // define start post for each pager item 
   var end = (indexPagerItem+1)*5; // define end post for each pager item 
-  $(".b-testimonials__item").hide();  
-  $(".b-testimonials__item").slice(start, end).show(); //Show only those posts which refer to the active pager link
+  $(".b-post__item").hide();  
+  $(".b-post__item").slice(start, end).show(); //Show only those posts which refer to the active pager link
 }
