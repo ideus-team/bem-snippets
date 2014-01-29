@@ -12,7 +12,7 @@
 */
 .b-langFlags {position: absolute; top: 20px; right: 245px;}
 .b-langFlags__title {display: none; margin: 0 5px 0 0; vertical-align: middle; font: bold 13px/26px $fontArial;}
-.b-langFlag__selected {position: relative; display: inline-block; box-shadow: inset 0 1px 2px #fff; padding: 0 14px 0 30px; width: 20px; height: 26px; border: 1px solid #a4a4a4; border-radius: 3px; outline: none; @extend %gradientLang; color: #595959; vertical-align: middle; text-decoration: none; font: bold 13px/26px $fontArial; @extend %flags;
+.b-langFlag__selected {position: relative; display: inline-block; box-shadow: inset 0 1px 2px #fff; padding: 0 14px 0 30px; width: 20px; height: 26px; border: 1px solid #a4a4a4; border-radius: 3px; outline: none; @extend %gradientLang; color: #595959; vertical-align: middle; text-decoration: none; font: bold 13px/26px $fontArial; cursor: pointer; @extend %flags;
   &:after {position: absolute; top: 5px; right: 5px; display: block; width: 10px; height: 17px; background: url('../img/b-langFlag__selected-bg.png') no-repeat; content: '';}
 }
 .b-langFlags__list {display: none; position: absolute; top: 100%; right: 0; box-shadow: inset 0 1px 2px #fff;box-shadow: inset 0 1px 2px #fff; margin: 0; padding: 0; width: 64px; border: 1px solid #a4a4a4; border-radius: 3px; @extend %gradientLang; list-style: none;}
