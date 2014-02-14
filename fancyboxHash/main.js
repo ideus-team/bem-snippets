@@ -21,7 +21,7 @@ function fancyboxProduct(){
         css : {
           'background-color': 'rgba(0,0,0,0.5)'
         }
-      }
+      }      
     }
   });
   $('.fancybox-2').fancybox({
@@ -34,7 +34,25 @@ function fancyboxProduct(){
           'background-color': 'rgba(0,0,0,0.5)'
         }
       }
+    },
+    type: 'iframe',
+    iframe : {
+        preload: false
     }
   });
-  
+   $('.fancybox3').fancybox({
+    wrapCSS: 'b-loginfancyBox',
+    helpers : {
+      history: true,
+      overlay : {
+        css : {
+          'background-color': 'rgba(0,0,0,0.5)'
+        }
+      }      
+    },
+    type: 'iframe',
+      iframe : {
+          preload: false
+      }
+  }); 
 }
