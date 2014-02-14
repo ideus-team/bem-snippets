@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Form</title>
+  <link rel="stylesheet" href="main.css" />
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+   <script src="jquery.validate.js" type="text/javascript"></script>
+   <script src="additional-methods.js" type="text/javascript"></script>
+   <script src="main.js" type="text/javascript"></script>
+   
+</head>
+<body>
+<form action="#" class="j-form g-clearfix">
+     <div class="b-control">
+      <input  type="email" placeholder="Email" name="cemail" id="cemail" data-rule-required="true" data-rule-email="true"  data-msg-required="The field is required." data-msg-email="Please enter a value for the 'E-mail' field" />
+    </div>  
+    <div class="b-control">
+      <input  type="email" placeholder="Confirm your email" name="cconfirmemail" id="cconfirmemail" data-rule-required="true" data-rule-email="true" data-msg-required="The field is required." data-msg-email="Please enter a value for the 'E-mail' field" data-rule-equalTo="#cemail" />
+    </div>  
+    <div class="b-control">
+      <input  type="password" placeholder="Password" name="cpassword" id="cpassword" data-msg-required="The field is required." data-rule-required="true" data-rule-minlength="6"  />
+    </div>  
+    <div class="b-control">
+      <input  type="password" placeholder="Confirm your password" name="cconfirmpassword" id="cconfirmpassword" data-msg-required="The field is required." data-rule-required="true" data-rule-equalTo="#cpassword" data-rule-minlength="6" />
+    </div>  
+    <div class="b-control">
+      <input class="no_required"  type="text" placeholder="Company" name="ccompany" id="ccompany"  data-rule-required="false" data-rule-minlength="3" />
+    </div> 
+    <div class="b-control">
+    <input  type="text" placeholder="First name" name="bfname" id="bfname" data-msg-required="The field is required." data-rule-required="true" data-rule-minlength="2"  />
+    </div> 
+    <div class="b-control">
+      <input  type="text" placeholder="Address line 1" name="baddress1" id="baddress1" data-msg-required="The field is required." data-rule-required="true" data-rule-minlength="3" />
+    </div> 
+    <div class="b-control">
+      <input class="no_required" type="text" placeholder="Address line 2" name="baddress2" id="baddress2" />
+    </div> 
+    <div class="b-control">
+      <input  type="text" placeholder="City" name="bcity" id="bcity" data-msg-required="The field is required." data-rule-required="true" data-rule-minlength="3" data-rule-lettersonly_3="true" />
+    </div>             
+    <div class="b-control">
+      <input  type="text" placeholder="Zip code" name="bzip" id="bzip" data-msg-required="The field is required." data-rule-required="true" data-rule-minlength="5" data-rule-zipcodeUS="true" />
+    </div>
+    <div class="b-control">
+      <select name="bcountry" id="bcountry" data-msg-required="The field is required." data-rule-required="true">
+        <option value="">Country</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+      </select>
+    </div>
+  <div class="b-control">
+    <input  type="tel" placeholder="Phone" name="bphone" id="bphone" data-msg-required="The field is required." data-rule-required="true" data-rule-phoneUS="true" />
+  </div>
+   <div class="b-control">
+    <input class="no_required"  type="text" placeholder="Comment" name="bcomment" id="bcomment" data-rule-required="false" data-rule-minlength="3" data-rule-lettersonly_3="true" />
+  </div>   
+  <div class="b-control">
+    <input  type="text" placeholder="Date" name="date" id="date" data-rule-required="true"  data-rule-dateITA="true" />
+  </div>   
+  <div class="b-control">
+    <input  type="text" placeholder="Date" name="date2" id="date2" data-rule-required="false"  data-rule-anyDate="true" />
+  </div>
+  <div class="b-control">
+    <input  type="file" placeholder="Upload" name="upload" id="upload" data-rule-required="true"  data-rule-extension="true" />
+  </div>
+  <div class="b-control">
+    <input  type="file" placeholder="Upload 2" name="upload2" id="upload2" data-rule-required="true"  data-rule-extension_2="true" />
+  </div>
+
+  <div class="b-control -type_submit">
+    <input type="submit" value="REGISTER" class="b-registrationBtn">
+  </div>
+</form>          
+</body>
+</html>

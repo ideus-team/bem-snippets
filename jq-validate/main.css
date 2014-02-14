@@ -1,0 +1,28 @@
+bode{font:400 14px Arial, sans-serif;}
+input ,
+select {
+    box-sizing: border-box !important; border: 1px solid #D2D0D4; border-radius: 4px; color: #2D143D; font-size: 16px; padding: 11px 34px 11px 15px; width: 100%; background-color: #FFFFFF; background-image: url(img/ico_validation.png);  background-position: 1000px 10px;  background-repeat: no-repeat; transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;}
+    
+.b-control{position:relative; margin-bottom:20px; width: 380px;}
+select {width:430px; height:45px; padding:0;}
+
+
+.error input,
+.error input[type='file'], 
+.error textarea,
+.error  select  { border: 1px solid #B94A48; background-position: 97% -527px;}
+
+.error select:focus, 
+.error input:focus, 
+.error textarea:focus{ border: 1px solid #B94A48; background-position: 97% -527px;}
+
+.valid input,
+.valid input[type='file'], 
+.valid textarea,
+.valid  select  {border: 1px solid #1DD68E; background-position: 97% 13px;}
+
+.valid select:focus, 
+.valid input:focus, 
+.valid textarea:focus{ border: 1px solid #B94A48; background-position: 97% 13px;}
+
+.help-block {position: absolute; left:0; bottom: -19pxpx; color: #B94A48;  padding: 3px 5px; font:400 11px/12px Arial, sans-serif; }
