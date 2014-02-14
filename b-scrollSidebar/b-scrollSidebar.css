@@ -1,0 +1,6 @@
+/**
+* @subsection scroll Sidebar
+*/
+.b-scrollSidebar {margin: 5px 0 0; padding: 0; list-style: none; position: fixed; width: 270px; position: sticky; background-color:yellow;}
+.b-content{margin:0 0 0 300px; height:2000px; background-color:green;}
+.b-footer{ height:500px; background-color:blue;}

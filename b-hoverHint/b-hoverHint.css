@@ -1,0 +1,9 @@
+/**
+* @subsection Hint
+*/
+.b-hoverHint {position: absolute; z-index:10000; display:none; width:90px; top: 100%; right: 0; margin: -1px 0 0; padding: 6px;  background-color: #fff; background-clip: padding-box;  border-radius: 10px; box-shadow: -2px 1px 3px #555; white-space: nowrap;}
+  .b-hoverHint:after {position: absolute; z-index: 0; bottom: 100%; right:13%; width: 0; height: 0; border-bottom: 7px solid rgb(0,0,0); border-bottom: 7px solid rgba(0,0,0,.1); border-right: 7px solid transparent; border-left: 7px solid transparent; content: '';}
+  .b-hoverHint:before {position: absolute; z-index: 1; bottom: 100%; right: 13%; width: 1px; height: 1px; border-bottom: 7px solid #fff; border-right: 6px solid transparent; border-left: 6px solid transparent; content: '';}
+
+  div{position:relative; margin:0 auto 0; width:30px; line-height:26px; }
+div:hover .b-hoverHint{display: block;}
