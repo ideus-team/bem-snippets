@@ -1,0 +1,13 @@
+
+.b-productGallery{float: left; width: 430px; margin-right: 29px;}
+.b-productGallery__promo{position:relative; display:inline-block; padding:10px 0 19px; width: 430px; height: 429px; background:url(../img/b-productGallery__promoImg-bg.png) center bottom no-repeat; text-align: center;}
+.b-productGallery__tumbList{ margin: 0 -13px 0 -8px; padding: 0; list-style: none;}
+.b-productGallery__tumbItem{display:inline-block; margin: 0 0 0 -3px; width: 150px; height: 149px; vertical-align: middle; background: url('../img/b-productGallery__tumbItem-bg.png') center bottom no-repeat; text-align: center;}
+.b-productGallery__tumbLink{display:block; outline:none;}
+.b-productGallery__tumbLink img {border:1px solid #fff;}
+.b-productGallery__tumbLink.active img {border:1px solid #6A2E92;}
+
+
+.zoomWindow{border:3px solid #6A2E92 !important;}
+.b-productQuality__qnt{width: 92px;margin:-4px 0 0; padding: 6px 10px;}
+.b-productGallery__promoImg{left:0; top:0;}
