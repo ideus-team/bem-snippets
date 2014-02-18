@@ -1,0 +1,10 @@
+/**
+* @section questions
+*/
+.l-questions{}
+.b-questions {margin: 0; padding: 0; list-style: none;}
+.b-questionHeader {margin: 0 0 10px;}
+.b-questionHeader__link {}
+.b-questionText {}
+.b-question__item.-style_comment {}
+.b-question__item.-style_comment:before {position: absolute; top: -49px; left: 100px; content: ''; border-width: 18px 28px 32px 0; border-style: solid; border-color: #FFF #FFF #EDEDED;}
