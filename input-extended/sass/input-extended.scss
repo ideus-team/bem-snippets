@@ -6,10 +6,10 @@
   &:first-child{}
 }
 .b-controlLabel{display:block; text-align:left; color:#4a4a4a; font: bold 12px/19px Arial, sans-serif; text-shadow: 0 0 1px  #ffffff;}
+
 .input-extended span { position:absolute; top:0; right:0; background: none repeat scroll 0 0 #FFFFFF; cursor: pointer; display: block;height: 26px; width: 20px; z-index: 100;}
 .input-extended.-style_focused{background: #e9f1f9; border: 1px solid #9dc3e1; box-shadow: inset 0 1px 1px rgba(35,74,122,.26);}
-.input-extended .close {background: url("http://www.aeroflot.ru/cms/sites/all/modules/booking/images/icon-close.gif") no-repeat scroll 5px 4px #FFFFFF;}
-.b-retCityAutoComplete{height: 23px;}
+.input-extended .close {background: url("http://www.aeroflot.ru/cms/sites/all/modules/booking/images/icon-close.gif") no-repeat scroll 5px 4px;}
 .b-depCityAutoComplete .input-extended .expand,
 .b-retCityAutoComplete .input-extended .expand { background: url("../img/b-depCityAutoComplete_-icon.png") no-repeat  0 0;}
 .b-depCityAutoComplete .input-extended .expand{ background-position: -4px 9px;}
@@ -17,11 +17,10 @@
 .b-retCityAutoComplete .input-extended .expand {background-position: -3px -13px;}
 .b-retCityAutoComplete .input-extended.input-extended.-style_focused .expand {background-position: -4px -58px;}
 
-.yui-skin-sam .yui-ac-input, .input-extended input { position: absolute; top: 1px; left: 6px; width: 152px; height:22px; border:none; margin:0; padding:0; color:#363636;
-    font:12px/19px Arial, sans-serif; outline: none;}
+.yui-skin-sam .yui-ac-input, .input-extended input { position: absolute; top: 1px; left: 6px; width: 140px; height:22px; border:none; margin:0; padding:0; color:#363636;
+    font:12px/19px Arial, sans-serif; outline: none; background:none; }
 .input-extended.-style_focused input{ background: none;}
-.input-extended {position:relative;  display: inline-block; height: 26px; padding: 4px 6px; font-size: 14px; line-height: 20px; color: #555555; border-radius: 3px; background-color: #ffffff;
-  border: 1px solid #ababab; border-top:1px solid #868686; transition: border linear 0.2s, box-shadow linear 0.2s; overflow: hidden; width: 100%; box-sizing: border-box;}
+.input-extended {position:relative; display:block; width:166px; height:24px; border-radius: 3px;  background-color: #FFFFFF; border:1px solid $color1;  box-shadow: inset 0 1px 1px rgba(44,43,43,.2); transition: border linear 0.2s, box-shadow linear 0.2s; overflow: hidden;  box-sizing: border-box;}
 
 .s-dialog {
     display: none;

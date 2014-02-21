@@ -16,5 +16,6 @@ $(window).resize(function() {
 });
 
 $(window).load(function () {
+   activateBookFields();();
    bookingReset();
 });
