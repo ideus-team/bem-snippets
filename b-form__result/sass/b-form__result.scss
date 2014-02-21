@@ -1,0 +1,8 @@
+ /**
+* @section form result
+*/
+.b-form__result {margin: 10px 0 0; overflow:hidden;}
+.b-form__resultLoader {float: left; margin: 0 8px 0 16px; width: 23px; height: 23px; background: url(../img/b-form__resultLoader-bg.png) no-repeat;}
+.b-form__resultTxt {float: left; margin: 0 0 0 16px; color: #6f6f71; font: 12px/23px $fontArial;}
+.b-form__resultNumber {padding: 2px 7px; border-radius: 17px; box-shadow: inset 1px 1px 2px #022d71; color: #FFFFFF; font: 12px $fontArial; text-shadow: 0 1px 0 rgba(0, 0, 0, 0.39); background-color: #00458F;}
+ 
