@@ -1,0 +1,123 @@
+@charset "utf-8";
+
+@import 'normalize';
+@import 'h5b';
+@import 'compass/css3/images';
+@import 'mixins';
+
+/**
+* @section Variables
+*/
+$fontArial: Arial, Helvetica, sans-serif;
+$width: 980px;
+
+$color4: #00529c;
+$color6: #595959;
+$color1: #a1a1a1;
+/**
+* @section Gradients
+*
+* %gradient1 {…}
+* %gradient2 {…}
+*/
+
+%gradient1 {
+  background-color: #1d65a9;
+  @include filter-gradient(#0189dc, #02458d, vertical);
+  @include background-image(linear-gradient(top,  #0189dc 0%,#0187d6 13%,#017fcc 20%,#0172be 40%,#025099 80%,#02458d 100%));
+}
+%gradient2 {
+  background-color: #ffb400;
+  @include filter-gradient(#ffb400, #ff7800, vertical);
+  @include background-image(linear-gradient(top,  #ffb400 0%,#ffa500 33%,#ff7800 100%));
+}
+
+/**
+* @subsection Main table
+*/
+.l-table { position: relative; font: 13px $fontArial;}
+
+.b-table-wrap {position: relative; width: 99.9%; border: 1px solid #ced7df; border-radius: 6px; overflow:hidden;
+  &:before {position: absolute; top: 0; left: 0; width:100%; z-index: 100; display: block; height: 41px; border: 1px solid #0f5399; border-bottom: none; border-radius: 6px 6px 0 0; content: '';}
+  .ie9 &:before {display:none; }
+}
+.b-table {width: 100%; border-collapse: collapse; text-align: left; }
+
+    
+.b-table__row {
+  &:first-child {
+    .b-table__header {
+      &:first-child {border-radius: 6px 0 0 0; border-left: 1px solid #0f5399;}
+      &:last-child,
+      &.b-last{border-radius: 0 6px 0 0;  border-right: 1px solid #0f5399;}
+      &.-name_departCity {width:131px;
+        .b-headCity{}
+      }
+      &.-name_roundTrip {
+        .b-headCity{padding:0;}
+      }
+      &.-name_returnCity {width: 123px;
+        .b-headCity{}
+      }
+      &.-name_depDay {width: 102px;}
+      &.-name_retDay {width: 100px;}         
+      &.-space_1 {width:26px; border-left:none; }        
+      &.-name_periodSale {width:105px;
+        .b-tableTitle {padding:9px 0 0 4px;}  
+      }
+      &.-name_price{
+        .b-tableTitle {padding:15px 0 11px 30px;} 
+      }                
+    }
+  }
+  &:last-child {
+    .b-table__col {
+      &:first-child {border-radius: 0 0 0 6px;}
+      &:last-child {border-radius: 0 0 6px 0;}          
+    }
+    .l-info{ border-radius: 0 0 6px 6px;}
+  }
+} 
+ 
+
+.b-tableThead {@extend %gradient1;}
+.b-tableTbody  {
+  &:after {display: none; content:' '; position: absolute; bottom: -4px; left: -4px; z-index: 1; width: 100%; height: 40px; border: 4px solid #E3EDF6; border-radius: 0 0 10px 10px;}     
+  .-parity_odd {
+    .b-table__col {background: #e6e8ec;}
+  }
+}
+.b-table__header {padding: 0; vertical-align: middle; text-align: left; outline: none; box-shadow: 0 2px 2px rgba(26,26,26,.2); border-left: 1px solid #0070A8; color: #fff; text-shadow: 0 1px 0 rgba(0,0,0,.39); font: bold 14px $fontArial;
+    &:first-child {border-left: none; border-right: none; }
+}
+.b-table__col{color: #00496b; padding:12px 0; background: #f5f6f8; text-align: left; font: 13px $fontArial;
+  &:last-child {text-align: right;}        
+  &:first-child {width: 130px;}
+  &:last-child,
+  &.-position_last {text-align: right;}
+  &.-name_returnCity {
+    .b-tableCity{padding-left:3px;}
+  }
+}
+.b-tableCell {position:relative; z-index: 3; display:inline-block; vertical-align:middle; padding: 0 0 0 1px;}
+
+
+/**
+* @subsection Main table City
+*/
+.b-headCity { display: inline-block; padding: 15px 0 11px 6px; @extend %gradient1; height: 42px;  width: 100%;  vertical-align: middle; font: bold 13px/12px $fontArial;  box-sizing: border-box;@extend .g-clearfix; }
+.b-tarrow {position: relative; display: inline-block; width: 10px; height:16px; vertical-align: middle;}
+.b-tarrowIco {position: absolute; z-index:100; display: block; width: 24px; height:20px; background-image: url('../img/b-tarrow-bg.png'); background-repeat: no-repeat; cursor: pointer;
+  &.-type_up {top:-12px; left: -6px; background-position: -24px 12px;
+    &.-state_active,
+    &:hover {background-position:7px 13px;}
+  }
+  &.-type_down {bottom: -9px; left:-6px; background-position: -24px -37px;
+    &.-state_active,
+    &:hover {background-position: 7px -38px;}
+  }
+}
+
+.b-roundTrip{padding-left:0; padding-right:0; width: 17px; height: 30px; background: url('../img/b-roundTrip.png') 50% 5px no-repeat;
+  &.-way_one {background-position: 50% -87px;}
+}

@@ -1,14 +1,9 @@
 /**
 * @section find Form Input btn
 */
-
-@include font-face('entypo', 'entypo', normal);
-
-.b-findFormInputbtn{position:relative; width:183px; margin:10px 0 5px;
-  &.entypo-search:before{position:absolute; top:6px; right:17px;  z-index:1; display:block; width:20px; height:20px; text-align:center; font:20px/28px entypo; color:#553a1f; box-sizing: border-box; content:"\1f50d";}
-}
-.b-findFormInputsubmit{ width:183px; height:42px;font: bold 16px $fontArial; text-align:center; text-indent:-20px; border: 1px solid #ffa300; border-radius: 2px; background-clip: padding-box; background-color: #ff8400;
+.b-findFormInputbtn{position:relative; float:left; width:165px; margin:0;}
+.b-findFormInputbtn__icon{position:absolute; z-index:100; top:0; right:0; display:block; width:38px; height:42px;  background: url(../img/b-findFormInputbtn-bg.png) 0 0 no-repeat;  box-sizing: border-box;}
+.b-findFormInputsubmit{ width:165px; height:42px;font: bold 16px $fontArial; text-align:center; text-indent:-20px; border: 1px solid #ffa300; border-radius: 2px; background-clip: padding-box; background-color: #ff8400;
 box-shadow: 0 1px 1px rgba(0,0,0,.3), inset 0 0 2px rgba(255,255,255,.7); background-image: linear-gradient(to top, rgba(0,0,0,0) -89%, rgba(255,255,255,0) 61%); color: #55371f; text-shadow: 0 1px 0 rgba(255,255,255,.4); 
   &:hover{background-color: #ff8400;}
  }
- 
