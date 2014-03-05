@@ -1,4 +1,4 @@
-.l-contentText{margin:20px auto; width:250px;}
+.l-contentText{position:relative; margin:20px 0; width:250px;}
 
 /*
  * Stepper Plugin [Formstone Library]
@@ -18,20 +18,19 @@
 
 /* Stepper */
 .stepper{
-	width: 100%;
+	width: 250px;
 	height: 30px;	
 	margin: 0 0 10px 0;
 	position: relative;
 	overflow: hidden;
 }
-.stepper .stepper-input{
+.b-number{
 	width: 100%;
-	height: 30px;
 	color: #000;
 	background: #FFF;
 	border: 1px solid #CCC;
 	margin: 0;
-	padding: 1px 0 1px 5px;
+  padding: 5px 0 6px 5px;
 	overflow: hidden;
 	z-index: 49;
 }
