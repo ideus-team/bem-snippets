@@ -1,15 +1,15 @@
 $(document).ready(function () {
-imgZoom();
+  $(".b-zoomImg").each(function () {
+    var $this = $(this);
+    var galery = $this.parent().next().attr('id');        
+    $this.elevateZoom({
+      gallery: galery,
+      cursor: 'pointer', cursor: 'pointer', galleryActiveClass: '-state_current',  tintColour:'#e5e5e5', tintOpacity:'0.8', imageCrossfade: true, loadingIcon: 'res/img/spinner.gif', tint:true});
+  });
+  
+  $(".b-zoomImg").bind("click", function (e) {
+    var ez = $(this).data('elevateZoom');
+    $.fancybox(ez.getGalleryList());
+    return false;
+  });
 });
-
-function imgZoom() {
-//initiate the plugin and pass the id of the div containing gallery images
-$("#zoom").elevateZoom({gallery:'b-productGallery', cursor: 'pointer', galleryActiveClass: 'active',  tintColour:'#6a2e92', tintOpacity:'0.5', imageCrossfade: true, loadingIcon: 'img/spinner.gif', tint:true}); 
-
-//pass the images to Fancybox
-$("#zoom").bind("click", function(e) {  
-  var ez =   $('#zoom').data('elevateZoom');	
-	//$.fancybox(ez.getGalleryList());
-  return false;
-});
-}

@@ -5,7 +5,7 @@
 .b-productGallery__tumbItem{display:inline-block; margin: 0 0 0 -3px; width: 150px; height: 149px; vertical-align: middle; background: url('../img/b-productGallery__tumbItem-bg.png') center bottom no-repeat; text-align: center;}
 .b-productGallery__tumbLink{display:block; outline:none;}
 .b-productGallery__tumbLink img {border:1px solid #fff;}
-.b-productGallery__tumbLink.active img {border:1px solid #6A2E92;}
+.b-productGallery__tumbLink.-state_current img {border:1px solid #6A2E92;}
 
 
 .zoomWindow{border:3px solid #6A2E92 !important;}
