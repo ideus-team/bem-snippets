@@ -1,9 +1,0 @@
-/**
-* @subsection select custom
-*/
-.b-control { position: relative; width:300px;}
-
-.b-control select { background-clip: padding-box; background-color: #FFFFFF; border: 1px solid #D2D0D4; border-radius: 4px; color: #94889D; font: 400 16px/24px sans-serif;   height: 40px; padding: 0 0 0 17px;  width: 100%;}
-
-.b-control .value_select { background-color: #FFFFFF;  border: 1px solid #D2D0D4;  border-radius: 4px;  color: #94889D; font:  400 16px/38px sans-serif; height: 38px; padding: 0 27px 0 17px;  position: relative;  text-align: left;}
-.b-control .value_select:after {position: absolute; display: block; right: 0; top: 0; width: 22px; height: 42px;  pointer-events: none; content: url(../img/select__arrow-bg.png);  }

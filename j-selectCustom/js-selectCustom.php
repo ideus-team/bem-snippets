@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>select custom</title>
   <link rel="stylesheet" href="sass/style.css"/>
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script type="text/javascript" src="js-selectCustom.js"></script>
 </head>
 <body>
