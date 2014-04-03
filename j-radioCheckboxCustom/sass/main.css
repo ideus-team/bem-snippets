@@ -1,0 +1,12 @@
+.b-checkbox,
+.b-radio{position:relative; display:block;}
+.b-checked {position:relative;}
+input[type="checkbox"],
+input[type="radio"]{position: relative; z-index: 100;  padding: 0; margin: 0 5px 0 0; display:inline-block; vertical-align:middle; width: 16px; height: 16px; cursor: pointer;}
+.b-inputOpacity{ opacity: 0; filter: alpha(opacity=0); }
+
+.b-checkboxContainer {position: absolute; z-index: 1; left: 0; top: 4px; display: block; cursor: pointer; border: 1px solid #000; width: 16px; height: 16px; border-radius: 1px;  background-color: #fff;  }
+.b-radioContainer {position: absolute; z-index: 1; left: 0; top: 4px; display: block; cursor: pointer; border: 1px solid #000; width: 16px; height: 16px; border-radius: 16px; background-color: #fff;}
+
+.b-checked  .b-checkboxContainer:after {display: block; width: 18px; height: 16px; margin: 0; content: ''; background: url(../img/checkboxContainer-bg.png) center bottom no-repeat;}
+.b-checked .b-radioContainer:after {display: block; width: 8px; height: 8px; overflow: hidden; margin: 4px 0 0 4px; border-radius: 8px; background-color: #000;  content: '';}
