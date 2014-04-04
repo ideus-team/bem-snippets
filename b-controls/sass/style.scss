@@ -1,0 +1,22 @@
+$siteWidth: 990px;
+
+.l-wrapper{margin: 0 auto; width: $siteWidth;}
+
+.b-controls {display: table; margin: 0 -20px -20px 0; min-width: 100%;}
+.b-controls__control {float: left; margin: 0 20px 20px 0; width: $siteWidth / 2 - 10px;
+  &:nth-child(odd) {clear: left;}
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  select {box-sizing: border-box; padding: 0 10px; width: 100%; height: 30px;}
+}
+
+.b-controls__hint {display: block;}
+
+.b-controls__radio {clear: both;
+  .b-controls__control {clear: none; width: auto;}
+}
+
+.b-controls__checkboxes {clear: both;
+  .b-controls__control {clear: left; width: auto;}
+}
