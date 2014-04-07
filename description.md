@@ -28,3 +28,10 @@
 
   Html-разметка для блока получения результата в результате какого-нибудь запроса, с использованием картинки подгрузки ![Loader](https://github.com/ideus-interactive/bem-snippets/blob/master/b-form__result/img/b-form__resultLoader-bg.png?raw=true).
   
+8. [**b-googleMap**](https://github.com/ideus-interactive/bem-snippets/tree/master/b-googleMap)
+
+  HTML-разметка для google карты с использованием блока `<div id="map-canvas"></div>` и подключением необходимой библиотеки для отображения карты. 
+  А также инициализация карты(в файле [main.js](https://github.com/ideus-interactive/bem-snippets/blob/master/b-googleMap/js/main.js)) по заданным координатам.
+  
+9. 
+  
