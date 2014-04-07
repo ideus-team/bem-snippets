@@ -7,3 +7,12 @@
 2. [**b-btn**](https://github.com/ideus-interactive/bem-snippets/tree/master/b-btn)
   
   Реализация кнопки для сайта по умолчанию `class="b-btn"`, и реализация кнопки с модификатором `class="b-btn -ico_play"`. 
+  
+3. [**b-controls**](https://github.com/ideus-interactive/bem-snippets/tree/master/b-controls)
+    
+  Реализация расположения элементов формы и их групировка.
+  
+4. [**b-event**](https://github.com/ideus-interactive/bem-snippets/tree/master/b-event)
+
+  Пример использования разметки microdata форматов (microdataOrganization, microdataEvent)
+  
