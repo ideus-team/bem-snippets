@@ -23,6 +23,7 @@
 6. [**b-findFormInputbtn**](https://github.com/ideus-interactive/bem-snippets/tree/master/b-findFormInputbtn)
   
   Html-разметка для поля поиска по сайту, с использованием иконки поиска ![Search Icon](https://github.com/ideus-interactive/bem-snippets/blob/master/b-findFormInputbtn/img/b-findFormInputbtn-bg.png)
+  ![Image](../ideus-interactive/bem-snippets/blob/master/b-findFormInputbtn/img/b-findFormInputbtn-bg.png?raw=true)
   
 7. [**b-form__result**](https://github.com/ideus-interactive/bem-snippets/tree/master/b-form__result)
 
