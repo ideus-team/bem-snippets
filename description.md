@@ -119,11 +119,35 @@
 
   Пример простой кастомизации `<select name="">...</select>`, реализованый в файле [js-selectCustom.js](https://github.com/ideus-interactive/bem-snippets/blob/master/j-selectCustom/js-selectCustom.js).
   
-30.
+30. [**j-simpleJQueryPager**](https://github.com/ideus-interactive/bem-snippets/tree/master/j-simpleJQueryPager)
   
+  js-код создает постраничную пагинацию не перегружая страницу. Мы указываем сколько элементов должно отображатся на одной странице, в результате функция берет все количество элементов списка и создает нужное количество страниц.
   
+31. [**j-zoomProduct**](https://github.com/ideus-interactive/bem-snippets/tree/master/j-zoomProduct)
   
+  HTML-разметка для галереи продуктов, при клике на продукт, всплывает попап с увеличеным изображение данного продукта. Используется плагин [jquery.elevatezoom.js](https://github.com/ideus-interactive/bem-snippets/blob/master/j-zoomProduct/js/plugins/jquery.elevatezoom.js) и его инициализация в файле [main.js](https://github.com/ideus-interactive/bem-snippets/blob/master/j-zoomProduct/js/main.js)
   
+32. [**jq-validate**](https://github.com/ideus-interactive/bem-snippets/tree/master/jq-validate)
+
+  HTML-разметка формы и валидации элементов формы. Использется плагин [jquery.validate.js](https://github.com/ideus-interactive/bem-snippets/blob/master/jq-validate/jquery.validate.js) и обязательно [additional-methods.js](https://github.com/ideus-interactive/bem-snippets/blob/master/jq-validate/additional-methods.js), инициализация плагина валидации происходит в файле [main.js](https://github.com/ideus-interactive/bem-snippets/blob/master/jq-validate/main.js), так же там дописываем дополнительные методы, или же задаем правила для появления блока с ошибкой.
+  
+33. [**microdataOrganization**](https://github.com/ideus-interactive/bem-snippets/tree/master/microdataOrganization)
+
+  HTML-разметка для блока с полным набором микроформатов для тега `<address></address>`.
+  
+34. [**microdataPlace**](https://github.com/ideus-interactive/bem-snippets/tree/master/microdataPlace)
+
+  Разметка фикроформатов для google карты.
+  
+35. [**scrollToHash**](https://github.com/ideus-interactive/bem-snippets/tree/master/scrollToHash)
+  
+  js-код позволяющий проскролить страницу к заданому хешу, используется плагин [jquery.smooth-scroll.js](https://github.com/ideus-interactive/bem-snippets/blob/master/scrollToHash/jquery.smooth-scroll.js), инициализация данного плагина происходит в [main.js](https://github.com/ideus-interactive/bem-snippets/blob/master/scrollToHash/main.js)
+  
+36. [**table**](https://github.com/ideus-interactive/bem-snippets/tree/master/table)
+  
+  HTML-разметка таблпицы и ее стилевое оформление.
+  
+
   
   
   
