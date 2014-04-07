@@ -67,9 +67,21 @@
   
   HTML-разметка и стилевое оформление для блока рассписания авиарейсов: *Туда и обратно* ![Туда и обратно](https://github.com/ideus-interactive/bem-snippets/blob/master/b-scheduleFormBtnGroup/img/b-scheduleFormBtnGroup__link-bg1.png?raw=true), *В одну сторону* ![В одну сторону](https://github.com/ideus-interactive/bem-snippets/blob/master/b-scheduleFormBtnGroup/img/b-scheduleFormBtnGroup__link-bg2.png?raw=true)
   
+17. [**b-scrollSidebar**](https://github.com/ideus-interactive/bem-snippets/tree/master/b-scrollSidebar) 
   
+  Реализация прокрутки страницы к заданому хешу.
   
+18. [**b-siteSearch**](https://github.com/ideus-interactive/bem-snippets/tree/master/b-siteSearch) 
   
+  HTML-разметка независимого блока-формы "Поиск по сайту" `<div class="l-siteSearch">`.  
+
+19. [**b-slider**](https://github.com/ideus-interactive/bem-snippets/tree/master/b-slider)  
+
+  HTML-разметка независимого блока-слайдера, с использованием js плагинов [cycle2](https://github.com/ideus-interactive/bem-snippets/tree/master/b-slider/js/plugins) и иницыализации слайдера в файле [main.js](https://github.com/ideus-interactive/bem-snippets/blob/master/b-slider/js/main.js)
+  
+20. [**b-socialButtons**](https://github.com/ideus-interactive/bem-snippets/tree/master/b-socialButtons)
+
+  HTML-разметка независимого блока социального шаринга, используя плагин [share42.js](https://github.com/ideus-interactive/bem-snippets/blob/master/b-socialButtons/share42.js)
   
   
   
