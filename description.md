@@ -42,3 +42,32 @@
   Независимый блок выбора страны и соответствующий к выбраной стране флаг, используя картинку спрайт.
   
   ![Flags sprite](https://github.com/ideus-interactive/bem-snippets/blob/master/b-langFlags/img/b-langFlags__link-bg.png?raw=true).
+  
+11. [**b-menuScrollTo**](https://github.com/ideus-interactive/bem-snippets/tree/master/b-menuScrollTo)
+
+  Блок навигации для одностраничного сайта. Используется фиксированое меню прижатое к верху страницы, при переходе к нужному разделу на странице подсвечивается соответствующий пункт меню.
+  
+12. [**b-moreButton**](https://github.com/ideus-interactive/bem-snippets/tree/master/b-moreButton)
+
+  Реализован js код для ссылки `<a class="j-eventNewsMore" href="">Подробнее</a>`. При клике на ссылку "Подробнее", необходимый блок розворачивается на всю свою высоту.
+  
+13. [**b-news**](https://github.com/ideus-interactive/bem-snippets/tree/master/b-news)
+
+  HTML-разметка для независимого блока новостей с использованием микроформатов. 
+  
+14. 
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
