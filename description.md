@@ -16,3 +16,15 @@
 
   Пример использования разметки microdata форматов (microdataOrganization, microdataEvent)
   
+5. [**b-faq**](https://github.com/ideus-interactive/bem-snippets/tree/master/b-faq)
+
+  Html-разметка для независимого блока FAQ, реализована списком dl, dt, dd
+  
+6. [**b-findFormInputbtn**](https://github.com/ideus-interactive/bem-snippets/tree/master/b-findFormInputbtn)
+  
+  Html-разметка для поля поиска по сайту, с использованием иконки поиска ![alt text](https://github.com/ideus-interactive/bem-snippets/blob/master/b-findFormInputbtn/img/b-findFormInputbtn-bg.png "Search Icon")
+  
+7. [**b-form__result**](https://github.com/ideus-interactive/bem-snippets/tree/master/b-form__result)
+
+  Html-разметка для блока получения результата в результате какого-нибудь запроса, с использованием картинки подгрузки ![alt text](https://github.com/ideus-interactive/bem-snippets/blob/master/b-form__result/img/b-form__resultLoader-bg.png "Loader").
+  
