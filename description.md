@@ -39,6 +39,6 @@
   
 10. [**b-langFlags**](https://github.com/ideus-interactive/bem-snippets/tree/master/b-langFlags)
 
-  Независимый блок выбора страны и соответствующий к выбраной стране флаг.
+  Независимый блок выбора страны и соответствующий к выбраной стране флаг, используя картинку спрайт.
   
   ![Flags sprite](https://github.com/ideus-interactive/bem-snippets/blob/master/b-langFlags/img/b-langFlags__link-bg.png?raw=true).
