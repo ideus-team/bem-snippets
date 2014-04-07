@@ -2,7 +2,7 @@
 
 1. [**b-accordion**](https://github.com/ideus-interactive/bem-snippets/tree/master/b-accordion)
   
-  Независимый аккордион блок, реализует отображение/скрытие блока `<div class="b-accordion__content">` по клику на `<h3 class="b-accordion__header">`. Для реализации данного аккордиона подключаем библиотеку [jquery.custom.min.js](https://github.com/ideus-interactive/bem-snippets/tree/master/b-accordion/js/plugins)
+  Независимый аккордион блок, реализует отображение/скрытие блока `<div class="b-accordion__content">` по клику на `<h3 class="b-accordion__header">`. Для реализации данного аккордиона подключаем библиотеку [jquery-ui.custom.min.js](https://github.com/ideus-interactive/bem-snippets/tree/master/b-accordion/js/plugins)
   
 2. [**b-btn**](https://github.com/ideus-interactive/bem-snippets/tree/master/b-btn)
   
@@ -81,10 +81,23 @@
   
 20. [**b-socialButtons**](https://github.com/ideus-interactive/bem-snippets/tree/master/b-socialButtons)
 
-  HTML-разметка независимого блока социального шаринга, используя плагин [share42.js](https://github.com/ideus-interactive/bem-snippets/blob/master/b-socialButtons/share42.js)
+  HTML-разметка независимого блока социального шаринга с отображением блока подсчета, используя плагин [share42.js](https://github.com/ideus-interactive/bem-snippets/blob/master/b-socialButtons/share42.js)
   
+21. [**b-table-AFL**](https://github.com/ideus-interactive/bem-snippets/tree/master/b-table-AFL)
+
+  HTML-разметка таблицы бронирования авиабилетов и стилевое оформление данной таблицы.
+
+22. [**fancyboxHash**](https://github.com/ideus-interactive/bem-snippets/tree/master/fancyboxHash) 
+
+  Пример использования **fancyboxHash**, с использованием плагина [historyhelperFancybox.js](https://github.com/ideus-interactive/bem-snippets/blob/master/fancyboxHash/historyhelperFancybox.js) и инициализация *history fancybox* в файле [main.js](https://github.com/ideus-interactive/bem-snippets/blob/master/fancyboxHash/main.js)
   
-  
+23. [**input-extended**](https://github.com/ideus-interactive/bem-snippets/tree/master/input-extended) 
+
+  В данном примере можно выбрать направление *откуда/куда*. При клике на иконку самолета подгружается попап с направлениями из которого можно выбрать город, или же при написании названия города автоматически подгружается попап со списком городов.
+
+24. [**j-datepicker**](https://github.com/ideus-interactive/bem-snippets/tree/master/j-datepicker) 
+
+  HTML-разметка для блока datepicker, используя библиотеку [jquery-ui.custom.min.js](https://github.com/ideus-interactive/bem-snippets/blob/master/j-datepicker/js/plugins/jquery-ui-1.10.4.custom.min.js) и инициализацию datapicker `$('.j-datepicker').datepicker();`
   
   
   
