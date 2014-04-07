@@ -99,6 +99,39 @@
 
   HTML-разметка для блока datepicker, используя библиотеку [jquery-ui.custom.min.js](https://github.com/ideus-interactive/bem-snippets/blob/master/j-datepicker/js/plugins/jquery-ui-1.10.4.custom.min.js) и инициализацию datapicker `$('.j-datepicker').datepicker();`
   
+25. [**j-floatingBlock**](https://github.com/ideus-interactive/bem-snippets/tree/master/j-floatingBlock)
+
+  js-код позволяющий зафиксировать сайдбар, и при прокрутке страницы вниз сайдбар всегда остается в зоне видимости и плывет по странице, достигая футера или хедера. 
+  
+26. [**j-inputNumbStep**](https://github.com/ideus-interactive/bem-snippets/tree/master/j-inputNumbStep)
+  
+  Кроссбраузерная реализация  `<input class="b-number" type="number" min="0" max="20" step="1" />` с использованием для инпута стрелочек ![Input number arrows](https://github.com/ideus-interactive/bem-snippets/blob/master/j-inputNumbStep/img/stepper.png?raw=true) при клике на которые число внутри инпута увеличивается или уменьшается. Здесь применяется плагин  	[jquery.fs.stepper.js](https://github.com/ideus-interactive/bem-snippets/blob/master/j-inputNumbStep/js/plugins/jquery.fs.stepper.js) и инициализируем таким образом `$("input[type='number']").stepper();`.
+  
+27. [**j-outDate**](https://github.com/ideus-interactive/bem-snippets/tree/master/j-outDate)
+
+  js-код делает не активными даты в datepicker. Даты берутся из массива, можно удалять даты которые из массива, а можно оставлять даты только из массива в календаре.
+  
+28. [**j-radioCheckboxCustom**](https://github.com/ideus-interactive/bem-snippets/tree/master/j-radioCheckboxCustom)
+
+  Пример простой кастомизации чекбоксов и радиобатонов, реализованый в файле [j-radioCheckboxCustom.js](https://github.com/ideus-interactive/bem-snippets/blob/master/j-radioCheckboxCustom/j-radioCheckboxCustom.js).
+  
+29. [**j-selectCustom**](https://github.com/ideus-interactive/bem-snippets/tree/master/j-selectCustom)
+
+  Пример простой кастомизации `<select name="">...</select>`, реализованый в файле [js-selectCustom.js](https://github.com/ideus-interactive/bem-snippets/blob/master/j-selectCustom/js-selectCustom.js).
+  
+30.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
