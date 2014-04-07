@@ -55,8 +55,17 @@
 
   HTML-разметка для независимого блока новостей с использованием микроформатов. 
   
-14. 
+14. [**b-popup**](https://github.com/ideus-interactive/bem-snippets/tree/master/b-popup) 
 
+  HTML-разметка для попапа с затемнением заднего фона.
+  
+15. [**b-questions**](https://github.com/ideus-interactive/bem-snippets/tree/master/b-questions) 
+  
+  HTML-разметка для блока вопросов.
+  
+16. [**b-scheduleFormBtnGroup**](https://github.com/ideus-interactive/bem-snippets/tree/master/b-scheduleFormBtnGroup) 
+  
+  HTML-разметка и стилевое оформление для блока рассписания авиарейсов: *Туда и обратно* ![Туда и обратно](https://github.com/ideus-interactive/bem-snippets/blob/master/b-scheduleFormBtnGroup/img/b-scheduleFormBtnGroup__link-bg1.png?raw=true), *В одну сторону* ![В одну сторону](https://github.com/ideus-interactive/bem-snippets/blob/master/b-scheduleFormBtnGroup/img/b-scheduleFormBtnGroup__link-bg2.png?raw=true)
   
   
   
