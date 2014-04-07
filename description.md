@@ -33,5 +33,8 @@
   HTML-разметка для google карты с использованием блока `<div id="map-canvas"></div>` и подключением необходимой библиотеки для отображения карты. 
   А также инициализация карты(в файле [main.js](https://github.com/ideus-interactive/bem-snippets/blob/master/b-googleMap/js/main.js)) по заданным координатам.
   
-9. 
+9. [**b-hoverHint**](https://github.com/ideus-interactive/bem-snippets/tree/master/b-hoverHint)
   
+  HTML-разметка для независимого блока с подсказкой при наведении, используются также необходимое стилевое оформление.
+  
+10.
