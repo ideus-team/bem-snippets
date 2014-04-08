@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+  <link media="all" rel="stylesheet" href="css/main.css" type="text/css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+</head>
+<body>
+	<div class="l-siteAccess">
+    <button class="b-siteAccess__btn -active_state">Student Access</button>
+    <div class="b-siteAccess__inner " style="display: block;">
+      <form action="https://newdesign.testeachersonline.com/auth/login" method="post" class="login_form b-loginForm">
+        <fieldset class="b-loginForm__fieldset">
+          <div class="b-loginForm__controlGroup clearfix">
+            <div class="b-loginForm__control">
+              <input type="text" value="" placeholder="Username" id="login" name="username">
+            </div>
+            <div class="b-loginForm__control">
+              <input type="password" value="" placeholder="Password" id="pass" name="password">
+            </div>
+            <div class="b-loginForm__controlGroup -btn_type">
+              <div class="b-loginForm__control">
+                <a class="b-loginForm__regBtn" href="#">Register Now</a>
+                <button id="btn_login" class="b-loginForm__submitBtn" title="login" type="submit">Login</button>
+              </div>
+              <div class="b-loginForm__control">
+                <a class="b-loginForm__passLink" href="#">Forgot password?</a>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
