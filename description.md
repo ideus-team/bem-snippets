@@ -150,6 +150,26 @@
 37. [**l-siteAccess**](https://github.com/ideus-interactive/bem-snippets/tree/master/l-siteAccess)
 
   HTML-разметка для независимого блока логина на сайт. Также стилизация данного блока и js-реализация. При клике на кнопку попап с формой логина отображается/скрывается. Также попап логина скрывается при клике в любой точке сайта.
+
+38. [**l-siteNavigation**](https://github.com/ideus-interactive/bem-snippets/tree/master/l-siteNavigation)
+
+  HTML-разметка меню в шапке
+    
+39. [**l-siteNavigationBottom**](https://github.com/ideus-interactive/bem-snippets/tree/master/l-siteNavigationBottom)
+
+  HTML-разметка меню в подвале
+	
+40. [**l-siteFooter__contact**](https://github.com/ideus-interactive/bem-snippets/tree/master/l-siteFooter__contact)
+
+  HTML-разметка contact в подвале
+	
+41. [**b-developerCopyright**](https://github.com/ideus-interactive/bem-snippets/tree/master/b-developerCopyright)
+
+  HTML-разметка developerCopyright в подвале
+	
+42. [**b-siteCopyright**](https://github.com/ideus-interactive/bem-snippets/tree/master/b-siteCopyright)
+
+  HTML-разметка Copyright в подвале
   
 
   
