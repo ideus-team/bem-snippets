@@ -1,0 +1,7 @@
+/**
+* @subsection Developer Copyright
+*/
+.b-developerCopyright { position: absolute; bottom: 37px; left: 101px; }
+.b-developerCopyright__link {padding-left: 30px; padding-bottom: 10px; color: inherit; text-decoration: none;  font: 12px $fontArial; background: url(../img/arizonaWebDesign.png) 0 0 no-repeat;
+  &:hover {text-decoration: underline;}
+}
