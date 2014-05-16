@@ -38,7 +38,7 @@ $.fancybox.helpers.history = {
          
           gallery = "gallery";
          var ii = $('a[rel="'+hash+'"]');
-         index = $('.-type_fancybox').index(ii)+1;
+         index = $('#itemContainer a.itemMenu__itemLink.-type_fancybox').index(ii)+1;
          group  = $("a[rel=" + gallery + "]"); 
 
 
@@ -89,7 +89,9 @@ $.fancybox.helpers.history = {
 
 	beforeShow : function(opts, obj) {
 		var gallery = $(obj.element).attr('rel') || 'gallery';
-
+		
+		gallery += '\s'; //for Chrome
+		
 		// Update window hash
 		window.location.hash = this.current_hash = gallery;
 	},
