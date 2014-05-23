@@ -33,6 +33,13 @@ jQuery.validator.addMethod("extension_2", function(value, element, param) {
 }, jQuery.format("Please enter a value with a valid extension."));
     
 elemvalid.validate({
+ ignore: [], /* for Foundation since it hides the original fields, and Jquery Validate needs a hint to validate hidden fields https://github.com/zurb/foundation/issues/2295 */
+  onfocusout: function(element) { this.element(element);},
+  invalidHandler: function(){   
+    setTimeout(function(){  
+      $('select').trigger('refresh');  
+    }, 1000000);  
+  },
   errorClass: 'help-block',
   validClass: 'valid',
   errorElement: 'div',
@@ -49,4 +56,8 @@ elemvalid.validate({
     $(element).parent().removeClass('valid').removeClass('error');
   }
 });
+
+$('select').change(function(){
+     $(".js-contactForm").valid();
+ });
 }
