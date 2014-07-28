@@ -1,0 +1,27 @@
+body{background: #eee;}
+/**
+* @section l-siteAccess
+*/ 
+
+.l-advantages { position:relative; padding: 100px 0 100px; background: #f3f3f3;}
+.b-advantages { margin: 0 auto;   padding-top:126px; width: 1120px;   background-color: #f3f3f3}
+
+.b-advantagesContent {margin: 4px 0 0 20px; float:left; width:603px;}
+.b-advantagesContentMain {}
+.b-advantagesContentMain__header { margin: 0; padding: 0; color: #329ef0;  font: italic 400 40px $fontRobotoCondensed; }
+.b-advantagesContentMain__text {margin-top: 12px; color: #666; font: 300 16px/23px $fontRobotoCondensed;}
+
+.b-advantagesContentSet {position:relative; margin: 0; padding: 0; list-style: none;}
+.b-advantagesContentSet__item {position:relative; margin-top: 5px; padding-left:110px;  width:493px;}
+.b-advantagesContentSet__item:first-child {margin-top: 0;}
+
+.b-advantagesContentSet__item.-type_1 .b-advantagesContentText{background:none; padding-left:0; padding-top:16px;}
+.b-advantagesContentSet__item.-type_1 .b-advantagesContentText:after{border:none;}
+.b-advantagesContentSet__item.-type_1 .b-contentSetHeader{margin: 0; padding: 0; font: italic 400 30px $fontRobotoCondensed;}	
+
+.b-advantagesContentText{position:relative; padding: 21px 21px 24px 32px; background-color: #fff; transition: opacity 0.4s ease-in-out;}
+.b-contentSetHeader {margin: 0; padding: 0; color: #2c8cd6;  font: italic 400 24px/24px $fontRobotoCondensed;transition: opacity 0.4s ease-in-out;}
+.b-contentSetText {padding-top: 3px; color: #666; font: 300 16px/24px $fontRobotoCondensed; overflow:hidden; transition: opacity 0.4s ease-in-out;}
+
+.b-advantagesFigure {position:relative; float:left; margin: -25px 0 0 81px; width: 310px; height: 655px;}
+.b-advantagesImg {position: absolute; bottom: 0; max-height: 95%; height: 90%; width: auto; max-width: none; margin: 0; right: 0; z-index: 1;}
