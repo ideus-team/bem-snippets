@@ -47,7 +47,7 @@ var locations = [
       center: new google.maps.LatLng(13.58, -14.58),
       mapTypeId: google.maps.MapTypeId.ROADMAP
     });   
-
+    var infowindow = new google.maps.InfoWindow();
     var marker, i;
     var image = 'img/map_marker.png';
     map.setOptions({styles: stylesArray});
@@ -56,6 +56,12 @@ var locations = [
         position: new google.maps.LatLng(locations[i][1], locations[i][2]),
         icon: image,
         map: map
-      });
-    }
+      });      
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+        }
+      })(marker, i));
+    }  
 }
