@@ -14,8 +14,8 @@ function initMap() {
 function initialize() {
 
 var locations = [
-      ['City 1', 33.79740877, -117.81738281, 4],      
-      ['City 2', 39.50404071, -101.16210937, 3],
+      ['<div class="b-popUp -type_1">'+'Denver, CO'+'</div><div class="b-popUp -type_1">'+'2000 South Colorado Boulevard'+'</div><div class="b-popUp -type_1">'+'Suite 2-620'+'</div><div class="b-popUp -type_1">'+'Denver, CO 80222'+'</div><div class="b-popUp -type_1 -type_phone">'+'Phone:'+'<div class="-type_phoneNumber">'+'(303) 785-7900'+'</div></div>', 33.79740877, -117.81738281, 4],      
+      ['<div class="b-popUp -type_2">'+'Greenwood Village, CO'+'</div><div class="b-popUp -type_2">'+'6400 South Fiddler`s Green Circle'+'</div><div class="b-popUp -type_2">'+'Suite 1270'+'</div><div class="b-popUp -type_2">'+'Greenwood Village, CO 80111'+'</div><div class="b-popUp -type_2 -type_phone">'+'Phone:'+'<div class="-type_phoneNumber">'+'(303) 785-7900'+'</div></div>', 39.50404071, -101.16210937, 3],
       ['City 3', 48.10743119, -121.37695312, 2], 
       ['City 4', 47.87214397, -124.18945312, 1] 
     ];
