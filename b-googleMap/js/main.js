@@ -12,17 +12,17 @@ function initialize() {
   };
   map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
      // need marker? here it is.
-//  var marker = new google.maps.Marker({
-//    position: new google.maps.LatLng(33.61654,-111.872633),
-//    title: 'Net-Craft.com',
-//    icon: image
-//  });
+ var marker = new google.maps.Marker({
+   position: new google.maps.LatLng(33.61654,-111.872633),
+    title: 'Net-Craft.com',
+    icon: image
+  });
 
      //need marker click hint? take it!
-//  google.maps.event.addListener(marker, 'click', function() {
-//    infowindow.setContent("YOUR MARKER HINT TEXT");
-//    infowindow.open(map,marker);
-//  });
+  google.maps.event.addListener(marker, 'click', function() {
+    infowindow.setContent("YOUR MARKER HINT TEXT");
+    infowindow.open(map,marker);
+  });
   marker.setMap(map);
 }
 
