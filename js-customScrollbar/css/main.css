@@ -1,0 +1,9 @@
+
+/**
+* @subsection scrollable
+*/
+.b-customScrollBar {margin: 0 auto; padding:0 20px 0 0; height: 415px; width:200px;  overflow: hidden; position: relative;}
+.b-customScrollBar.scrollable .viewport{ overflow: hidden; position: relative; width:100% !important;} 
+.scrollable .scroll-bar.vertical .thumb {right: -1px; min-height: 150px !important; width:4px;  background-color: #b1b4ba;}
+.scrollable .scroll-bar.vertical{width:2px; right:4px; background-color:#000; z-index:100;}
+.overview{height: auto;  width:100%;}
