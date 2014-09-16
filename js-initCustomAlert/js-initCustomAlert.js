@@ -5,7 +5,7 @@ function initCustomAlert() {
     $.fancybox.open(
       [{
         content : message, // html что выводится в попап
-        closeClick : true, // закрывать попап просто кликнув по нему мышью
+        closeClick : true // закрывать попап просто кликнув по нему мышью
       }]
     );
   };
