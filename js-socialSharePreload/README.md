@@ -6,7 +6,7 @@
 ```
 
 **Содержимое social-links.js**  
-_Не забудьте обновить apiId для Vk!_
+_Не забудьте обновить apiId для Vk и YOUR-SITE-URL.com для OK!_
 ```
 $(window).load(function () {
   // twitter button
@@ -24,7 +24,7 @@ $(window).load(function () {
           
 
   // vk button
-  $.getScript("http://userapi.com/js/api/openapi.js?101", function(data, textStatus, jqxhr) {
+  $.getScript("//userapi.com/js/api/openapi.js?101", function(data, textStatus, jqxhr) {
     VK.init({apiId: 4034267, onlyWidgets: true});
     VK.Widgets.Like("vk_like", {type: "button", height: 20});
   });
@@ -33,7 +33,7 @@ $(window).load(function () {
   // odnoklassniki button
   !function (d, id, did, st) {
   var js = d.createElement("script");
-  js.src = "http://connect.ok.ru/connect.js";
+  js.src = "//connect.ok.ru/connect.js";
   js.onload = js.onreadystatechange = function () {
   if (!this.readyState || this.readyState == "loaded" || this.readyState == "complete") {
     if (!this.executed) {
@@ -45,12 +45,12 @@ $(window).load(function () {
   }(document);
   function onOkConnectReady() {
 
-  OK.CONNECT.insertShareWidget("ok_shareWidget","http://www.aeroflot.ru/cms/special_offers/karaganda","{width:145,height:30,st:'straight',sz:20,ck:1}");
+  OK.CONNECT.insertShareWidget("ok_shareWidget","//YOUR-SITE-URL.com","{width:145,height:30,st:'straight',sz:20,ck:1}");
 }
 
 
   // Google+
   window.___gcfg = {lang: 'ru'};
-  $.getScript("https://apis.google.com/js/plusone.js", function(data, textStatus, jqxhr) {});
+  $.getScript("//apis.google.com/js/plusone.js", function(data, textStatus, jqxhr) {});
 });
 ```
