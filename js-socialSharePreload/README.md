@@ -50,7 +50,10 @@ $(window).load(function () {
 
 
   // Google+
-  window.___gcfg = {lang: 'ru'};
-  $.getScript("//apis.google.com/js/plusone.js", function(data, textStatus, jqxhr) {});
+  window.___gcfg = {
+    lang: 'zh-CN',
+    parsetags: 'onload'
+  };
+  $.getScript("//apis.google.com/js/platform.js", function(data, textStatus, jqxhr) {});
 });
 ```
