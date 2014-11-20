@@ -1,5 +1,22 @@
 #Ручная оптимизациия скорости загрузки страницы за счет отложенной подгрузки соц. шаринга
+
 В шаблоне удаляем оригинальные js-коды кнопок соц. шаринга, оставляем только относящийся к ним html-код.
+```html
+<!-- twitter -->
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.aeroflot.ru/cms/special_offers/karaganda" data-text="Приобретайте билеты на новый прямой рейс от Аэрофлота — Караганда - Москва! http://www.aeroflot.ru/cms/special_offers/karaganda" data-via="aeroflot" data-lang="ru">Твитнуть</a>
+
+<!-- facebook -->
+<div class="fb-like" data-href="http://www.aeroflot.ru/cms/special_offers/karaganda" data-send="false" data-layout="button_count" data-width="130" data-show-faces="true"></div>
+
+<!-- vk -->
+<div id="vk_like"></div>
+
+<!-- odnoklassniki -->
+<div id="ok_shareWidget"></div>
+
+<!-- Google+ -->
+<div class="g-plusone" data-size="medium" data-annotation="inline" data-width="120"></div>
+```
 В конце страницы добавляем отложенную подгрузку js с переписанным кодом соц. кнопок:
 ```
 <script defer src="js/social-links.js"></script>
@@ -7,7 +24,7 @@
 
 **Содержимое social-links.js**  
 _Не забудьте обновить apiId для Vk и YOUR-SITE-URL.com для OK!_
-```
+```javascript
 $(window).load(function () {
   // twitter button
   $.getScript("//platform.twitter.com/widgets.js", function(data, textStatus, jqxhr) {});
