@@ -52,22 +52,21 @@ $(window).load(function () {
         
 
   // odnoklassniki button
+  // @url: http://apiok.ru/wiki/pages/viewpage.action?pageId=42476656
   !function (d, id, did, st) {
-  var js = d.createElement("script");
-  js.src = "//connect.ok.ru/connect.js";
-  js.onload = js.onreadystatechange = function () {
-  if (!this.readyState || this.readyState == "loaded" || this.readyState == "complete") {
-    if (!this.executed) {
-      this.executed = true;
-      setTimeout(function () {onOkConnectReady()}, 0);
-    }
-  }}
-  d.documentElement.appendChild(js);
-  }(document);
-  function onOkConnectReady() {
-
-  OK.CONNECT.insertShareWidget("ok_shareWidget","//YOUR-SITE-URL.com","{width:145,height:30,st:'straight',sz:20,ck:1}");
-}
+    var js = d.createElement("script");
+    js.src = "http://connect.ok.ru/connect.js";
+    js.onload = js.onreadystatechange = function () {
+    if (!this.readyState || this.readyState == "loaded" || this.readyState == "complete") {
+      if (!this.executed) {
+        this.executed = true;
+        setTimeout(function () {
+          OK.CONNECT.insertShareWidget(id,did,st);
+        }, 0);
+      }
+    }};
+    d.documentElement.appendChild(js);
+  }(document,"ok_shareWidget","http://dev.ok.ru","{width:145,height:30,st:'straight',sz:20,ck:1}");
 
 
   // Google+
