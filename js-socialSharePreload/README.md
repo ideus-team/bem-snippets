@@ -1,12 +1,16 @@
 #Ручная оптимизациия скорости загрузки страницы за счет отложенной подгрузки соц. шаринга
 
+**Макросы, которые вам нужно будет заменить:**
+- *YOUR-SITE-URL.com* = url вашей страницы
+- *apiId* = id вашей кнопки в аккаунте Vk
+
 В шаблоне удаляем оригинальные js-коды кнопок соц. шаринга, оставляем только относящийся к ним html-код.
 ```html
 <!-- twitter -->
-<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.aeroflot.ru/cms/special_offers/karaganda" data-text="Приобретайте билеты на новый прямой рейс от Аэрофлота — Караганда - Москва! http://www.aeroflot.ru/cms/special_offers/karaganda" data-via="aeroflot" data-lang="ru">Твитнуть</a>
+<a href="https://twitter.com/share" class="twitter-share-button">Твитнуть</a>
 
 <!-- facebook -->
-<div class="fb-like" data-href="http://www.aeroflot.ru/cms/special_offers/karaganda" data-send="false" data-layout="button_count" data-width="130" data-show-faces="true"></div>
+<div class="fb-like" data-layout="button_count" data-width="130" data-show-faces="true"></div>
 <div id="fb-root"></div>
 
 <!-- vk -->
@@ -23,8 +27,7 @@
 <script defer src="js/social-links.js"></script>
 ```
 
-**Содержимое social-links.js**  
-_Не забудьте обновить apiId для Vk и YOUR-SITE-URL.com для OK!_
+**Содержимое social-links.js**
 ```javascript
 $(window).load(function () {
   // twitter button
