@@ -24,7 +24,7 @@ $(window).load(function () {
           
 
   // vk button
-  $.getScript("//userapi.com/js/api/openapi.js?101", function(data, textStatus, jqxhr) {
+  $.getScript("//userapi.com/js/api/openapi.js?115", function(data, textStatus, jqxhr) {
     VK.init({apiId: 4034267, onlyWidgets: true});
     VK.Widgets.Like("vk_like", {type: "button", height: 20});
   });
