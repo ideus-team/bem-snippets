@@ -19,7 +19,7 @@
 <div class="g-plusone" data-size="medium" data-annotation="inline" data-width="120"></div>
 ```
 В конце страницы добавляем отложенную подгрузку js с переписанным кодом соц. кнопок:
-```
+```html
 <script defer src="js/social-links.js"></script>
 ```
 
