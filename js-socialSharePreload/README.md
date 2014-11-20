@@ -7,6 +7,7 @@
 
 <!-- facebook -->
 <div class="fb-like" data-href="http://www.aeroflot.ru/cms/special_offers/karaganda" data-send="false" data-layout="button_count" data-width="130" data-show-faces="true"></div>
+<div id="fb-root"></div>
 
 <!-- vk -->
 <div id="vk_like"></div>
