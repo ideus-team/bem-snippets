@@ -2,7 +2,8 @@
 
 **Макросы, которые вам нужно будет заменить:**
 - *YOUR-SITE-URL.com* = url вашей страницы
-- *apiId* = id вашей кнопки в аккаунте Vk
+- *FB-API-ID* = id вашей кнопки в аккаунте Fb
+- *VK-API-ID* = id вашей кнопки в аккаунте Vk
 
 В шаблоне удаляем оригинальные js-коды кнопок соц. шаринга, оставляем только относящийся к ним html-код.
 ```html
@@ -39,14 +40,14 @@ $(window).load(function () {
     var js, fjs = d.getElementsByTagName(s)[0];
     if (d.getElementById(id)) return;
     js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/ru_RU/sdk.js#xfbml=1&appId=317571361622394&version=v2.0";
+    js.src = "//connect.facebook.net/ru_RU/sdk.js#xfbml=1&appId=FB-API-ID&version=v2.0";
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));
           
 
   // vk button
   $.getScript("//userapi.com/js/api/openapi.js?115", function(data, textStatus, jqxhr) {
-    VK.init({apiId: 4034267, onlyWidgets: true});
+    VK.init({apiId: VK-API-ID, onlyWidgets: true});
     VK.Widgets.Like("vk_like", {type: "button", height: 20});
   });
         
@@ -66,7 +67,7 @@ $(window).load(function () {
       }
     }};
     d.documentElement.appendChild(js);
-  }(document,"ok_shareWidget","http://dev.ok.ru","{width:145,height:30,st:'straight',sz:20,ck:1}");
+  }(document,"ok_shareWidget","http://YOUR-SITE-URL.com","{width:145,height:30,st:'straight',sz:20,ck:1}");
 
 
   // Google+
