@@ -23,14 +23,13 @@
 <!-- Google+ -->
 <div class="g-plusone" data-size="medium" data-annotation="inline" data-width="120"></div>
 ```
-В конце страницы добавляем отложенную подгрузку js с переписанным кодом соц. кнопок:
-```html
-<script defer src="js/social-links.js"></script>
-```
-
-**Содержимое social-links.js**
+В js добавляем отложенную подгрузку переписанного кода соц. кнопок:
 ```javascript
 $(window).load(function () {
+  loadSocialSharingButtons();
+});
+
+function loadSocialSharingButtons() {
   // twitter button
   $.getScript("//platform.twitter.com/widgets.js", function(data, textStatus, jqxhr) {});
 
@@ -76,5 +75,5 @@ $(window).load(function () {
     parsetags: 'onload'
   };
   $.getScript("//apis.google.com/js/platform.js", function(data, textStatus, jqxhr) {});
-});
+}
 ```
