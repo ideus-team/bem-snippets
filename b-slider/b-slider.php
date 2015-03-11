@@ -18,7 +18,7 @@
   </ul>
   <div class="b-sliderPager js-sliderPager"></div>
   <div class="b-sliderControls">
-    <div class="b-sliderControl -type_prev js-sliderControl"></div>
-    <div class="b-sliderControl -type_next js-sliderControl"></div>
+    <div class="b-sliderControl -type_prev j-sliderControl">←</div>
+    <div class="b-sliderControl -type_next j-sliderControl">→</div>
   </div>
 </section>
