@@ -1,24 +1,24 @@
 <section class="l-slider">
-  <ul class="b-slider j-slider">
-    <li class="b-sliderItem j-sliderItem">
+  <ul class="b-slider js-slider">
+    <li class="b-sliderItem js-sliderItem">
       <a href="#" class="b-sliderLink">
         <img src="#" alt="" class="b-sliderImg">
       </a>
     </li>
-    <li class="b-sliderItem">
+    <li class="b-sliderItem js-sliderItem">
       <a href="#" class="b-sliderLink">
         <img src="#" alt="" class="b-sliderImg">
       </a>
     </li>
-    <li class="b-sliderItem">
+    <li class="b-sliderItem js-sliderItem">
       <a href="#" class="b-sliderLink">
         <img src="#" alt="" class="b-sliderImg">
       </a>
     </li>    
   </ul>
-  <div class="b-sliderPager j-sliderPager"></div>
+  <div class="b-sliderPager js-sliderPager"></div>
   <div class="b-sliderControls">
-    <div class="b-sliderControl -type_prev j-sliderControl"></div>
-    <div class="b-sliderControl -type_next j-sliderControl"></div>
+    <div class="b-sliderControl -type_prev js-sliderControl"></div>
+    <div class="b-sliderControl -type_next js-sliderControl"></div>
   </div>
 </section>

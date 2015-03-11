@@ -3,11 +3,11 @@ $(document).ready(function(){
 });
 
 function initMainSlider(){
-  $('.j-slider').cycle({
-    slides: '.j-sliderItem',
+  $('.js-slider').cycle({
+    slides: '.js-sliderItem',
     fx: 'scrollHorz',
-    prev: '.-type_prev.j-sliderControl',
-    next: '.-type_next.j-sliderControl',
-    pager: '.j-sliderPager'
+    prev: '.-type_prev.js-sliderControl',
+    next: '.-type_next.js-sliderControl',
+    pager: '.js-sliderPager'
   });
 }
