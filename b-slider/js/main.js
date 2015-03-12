@@ -8,6 +8,7 @@ function initMainSlider(){
     fx: 'scrollHorz',
     prev: '.-type_prev.js-sliderControl',
     next: '.-type_next.js-sliderControl',
-    pager: '.js-sliderPager'
+    pager: '.js-sliderPager',
+    pagerTemplate: '<span class="b-slider__page">&bull;</span>'
   });
 }
