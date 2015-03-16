@@ -64,14 +64,6 @@
     "type": "VIDEO",
     "sources": {
       "h264": {
-        "source": "movie/PRVKEY_01_crop.mp4",
-        "size": 2237503
-      }
-    }
-  }, {  
-    "type": "VIDEO",
-    "sources": {
-      "h264": {
         "source": "movie/PRVKEY_05_crop.mp4",
         "size": 2237503
       }
@@ -81,6 +73,14 @@
     "sources": {
       "h264": {
         "source": "movie/PRVKEY_06_crop.mp4",
+        "size": 2237503
+      }
+    }
+  }, {  
+    "type": "VIDEO",
+    "sources": {
+      "h264": {
+        "source": "movie/PRVKEY_07_crop.mp4",
         "size": 2237503
       }
     }
