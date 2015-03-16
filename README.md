@@ -176,10 +176,9 @@ Our BEM-based html/css/js library
 
   HTML-разметка Copyright в подвале
   
+43. [**js-preloader**](https://github.com/ideus-interactive/bem-snippets/tree/master/js-preloader)
 
-  
-
-  
+JS библиотека с API и калбеками для прелоада произвольных данных: картинок,видео,etc.
   
   
   

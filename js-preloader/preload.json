@@ -1,0 +1,96 @@
+{
+  "files": [
+  {
+    "source": "img/blocks/b-interactiveSlideshow/b-interactiveSlideshow-intro-01.jpg",
+    "type": "IMAGE",
+    "size": 12345
+  }, {
+    "source": "img/blocks/b-interactiveSlideshow/b-interactiveSlideshow-intro-02.jpg",
+    "type": "IMAGE",
+    "size": 8272
+  }, {
+    "source": "img/blocks/b-interactiveSlideshow/b-interactiveSlideshow-intro-03.jpg",
+    "type": "IMAGE",
+    "size": 11456
+  }, {
+    "source": "img/blocks/b-interactiveSlideshow/b-interactiveSlideshow-intro-04.jpg",
+    "type": "IMAGE",
+    "size": 16237
+  }, {
+    "source": "img/blocks/b-interactiveSlideshow/b-interactiveSlideshow-intro-05.jpg",
+    "type": "IMAGE",
+    "size": 17600
+  }, {
+    "source": "img/blocks/b-interactiveSlideshow/b-interactiveSlideshow-intro-06.jpg",
+    "type": "IMAGE",
+    "size": 16489
+  }, {
+    "source": "img/blocks/b-interactiveSlideshow/b-interactiveSlideshow-intro-07.jpg",
+    "type": "IMAGE",
+    "size": 20046
+  }, {  
+    "type": "VIDEO",
+    "sources": {
+      "h264": {
+        "source": "movie/PRVKEY_01_crop.mp4",
+        "size": 2237503
+      }
+    }
+  }, {  
+    "type": "VIDEO",
+    "sources": {
+      "h264": {
+        "source": "movie/PRVKEY_02_crop.mp4",
+        "size": 2237503
+      }
+    }
+  }, {  
+    "type": "VIDEO",
+    "sources": {
+      "h264": {
+        "source": "movie/PRVKEY_03_crop.mp4",
+        "size": 2237503
+      }
+    }
+  }, {  
+    "type": "VIDEO",
+    "sources": {
+      "h264": {
+        "source": "movie/PRVKEY_04_crop.mp4",
+        "size": 2237503
+      }
+    }
+  }, {  
+    "type": "VIDEO",
+    "sources": {
+      "h264": {
+        "source": "movie/PRVKEY_01_crop.mp4",
+        "size": 2237503
+      }
+    }
+  }, {  
+    "type": "VIDEO",
+    "sources": {
+      "h264": {
+        "source": "movie/PRVKEY_05_crop.mp4",
+        "size": 2237503
+      }
+    }
+  }, {  
+    "type": "VIDEO",
+    "sources": {
+      "h264": {
+        "source": "movie/PRVKEY_06_crop.mp4",
+        "size": 2237503
+      }
+    }
+  }, {
+    "type": "AUDIO",
+    "sources": {
+      "mp3": {
+        "source": "sounds/b-interactiveSlideshow/b-interactiveSlideshow-intro.mp3",
+        "size": 7176
+      }
+    }
+  }]
+}
