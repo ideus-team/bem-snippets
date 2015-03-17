@@ -9,6 +9,7 @@ function initMainSlider(){
     prev: '.-type_prev.js-sliderControl',
     next: '.-type_next.js-sliderControl',
     pager: '.js-sliderPager',
-    pagerTemplate: '<span class="b-slider__page">&bull;</span>'
+    pagerTemplate: '<span class="b-slider__page">&bull;</span>',
+    swipe: true
   });
 }
