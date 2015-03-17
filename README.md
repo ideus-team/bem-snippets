@@ -180,11 +180,9 @@ Our BEM-based html/css/js library
 
 JS библиотека с API и калбеками для прелоада произвольных данных: картинок,видео,etc.
   
-  
-  
-  
-  
-  
+44. [**js-audioPlayer**](https://github.com/ideus-interactive/bem-snippets/tree/master/js-audioPlayer)
+
+Проигрывание звука с помощью jPlayer
   
   
   
