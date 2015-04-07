@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>js-jstree</title>
+</head>
+<body>
+	<div id="ajax" class="demo"></div>
+	
+	<script>
+	// ajax demo
+	$('#ajax').jstree({
+		'core' : {
+			'data' : {
+				"url" : "./root.json",
+				"dataType" : "json" // needed only if you do not supply JSON headers
+			}
+		}
+	}).on('loaded.jstree', function() {
+      $('#ajax').jstree('open_all');
+    });;
+	</script>
+</body>
+</html>
