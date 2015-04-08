@@ -1,0 +1,57 @@
+.b-listIllustration {
+  @include resetList;
+  position: relative;
+}
+.b-listIllustration__item {
+  @include resetList;
+  @include clearfix;
+  position: relative;
+  display: inline-block;
+  margin: 0 20px 40px 0;
+  width: 176px + 270px +10px;
+}
+.listIllustration__ill {
+  float: left;
+  width: 176px;
+  height: 160px;
+}
+.b-listIllustration__image {
+
+}
+.listIllustration__content {
+  float: right;
+  width: 270px;
+}
+.listIllustration__header {
+  color: #3F394A;
+  font-family: $roboto;
+  font-size: 27px;
+  font-weight: 400;
+}
+.listIllustration__description {
+  color: #090909;
+  font-family: $roboto;
+  font-size: 15px;
+  font-weight: 300;
+
+  &.b-text {
+    ul {
+      @include resetList;
+    }
+    li {
+      @include resetList;
+      position: relative;
+      margin: .5em 0;
+      padding-left: 15px;
+
+      &:before {
+        @include beforeafter;
+        top: 7px;
+        left: 5px;
+        width: 5px;
+        height: 5px;
+        background-color: #EB494F;
+      }
+    }
+  }
+}
