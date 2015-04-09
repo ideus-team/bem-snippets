@@ -1,0 +1,63 @@
+.b-quote {
+  width: 660px;
+  $quoteLeftPadding: 120px;
+
+  &__content {
+    position: relative;
+    opacity: .78;
+    padding: 50px 50px 50px $quoteLeftPadding;
+    border-radius: 10px;
+    background-color: #FFF;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.19);
+
+    color: #141414;
+    font-family: $roboto;
+    font-size: 19px;
+    font-weight: 300;
+    font-style: italic;
+
+    &:before {
+      @include beforeafter;
+      top: 50px;
+      left: 40px;
+      content: '\201C';
+      color: #61C8D6;
+      font-size: 150px;
+      font-weight: 400;
+      font-family: $georgia;
+      line-height: 1;
+    }
+    &:after {
+      @include beforeafter;
+      z-index: 1;
+      bottom: -30px;
+      left: 20%;
+      opacity: .78;
+      width: 0;
+      height: 0;
+      border-top: 40px solid #fff;
+      border-right: 30px solid transparent;
+    }
+  }
+  &__copyright {
+    margin-left: $quoteLeftPadding;
+    margin-top: 65px;
+    font-family: $roboto;
+    font-weight: 400;
+  }
+  &__logo {
+    display: block;
+    margin-bottom: 20px;
+  }
+  &__authorName {
+    display: block;
+    color: #141414;
+    font-size: 15px;
+    font-style: normal;
+  }
+  &__authorDescription {
+    display: block;
+    color: #636363;
+    font-size: 13px;
+  }
+}
