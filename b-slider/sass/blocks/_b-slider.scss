@@ -2,32 +2,26 @@
 * @section b-slider
 */
 .l-slider {
-
-}
-.b-slider {  
   position: relative;
-  display: block; 
-  
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  
+}
+.b-slider {
+  @include resetList;
+  position: relative;
+  display: block;
+
   &__item {
+    @include resetList;
     position: relative;
     display: block;
-    width: 100%;
-    height: 100%;
-    
-    margin: 0;
-    padding: 0;
-    list-style-type: none;  
+    width: 100%; // because after slider initialize &__item will be pos:abs
+    // DON'T Set height because you can't use autoHeight: 'calc'!
   }
   &__link {
-    display: block; 
-    height: 100%; 
+    display: block;
+    height: 100%;
   }
   &__ill {
-    overflow: hidden;    
+    overflow: hidden;
   }
   &__image {
     display: block;
@@ -35,12 +29,52 @@
     max-height: 100%;
   }
   &__pager {
+    position: absolute;
+    z-index: 101;
+    bottom: -70px;
+    left: 50%;
+    transform: translateX(-50%);
+
     text-align: center;
   }
-  &__page {}
-  &__controls {}
+  &__page {
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 5px;
+
+    background-color: #9B95A4;
+    cursor: pointer;
+
+    text-indent: 100%;
+    overflow: hidden;
+
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+
+    &.cycle-pager-active {
+      background-color: #EB494F;
+    }
+  }
+  &__controls {
+    font-size: 80px;
+    line-height: 1;
+    color: #5D546D;
+    cursor: pointer;
+  }
   &__control {
-    &.-type_prev {}
-    &.-type_next {}
+    position: absolute;
+    z-index: 250;
+    top: 50%;
+    transform: translateY(-50%);
+
+    &.-type_prev {
+      left: 5px;
+    }
+    &.-type_next {
+      right: 5px;
+    }
   }
 }

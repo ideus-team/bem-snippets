@@ -1,30 +1,30 @@
 <section class="l-slider">
   <ul class="b-slider js-slider">
-    <li class="b-slider__item js-sliderItem">
+    <li class="b-slider__item js-sliderItem" <!-- data-bg="img/blocks/b-testimonials/b-testimonials-bg--BrandName-1.jpg" --> >
       <div class="b-slider__ill">
         <a href="#" class="b-slider__link">
           <img src="#" alt="" class="b-slider__image">
-        </a>        
+        </a>
       </div>
-    </li>  
-    <li class="b-slider__item js-sliderItem">
+    </li>
+    <li class="b-slider__item js-sliderItem" <!-- data-bg="img/blocks/b-testimonials/b-testimonials-bg--BrandName-1.jpg" --> >
       <div class="b-slider__ill">
         <a href="#" class="b-slider__link">
           <img src="#" alt="" class="b-slider__image">
-        </a>        
+        </a>
       </div>
-    </li>  
-    <li class="b-slider__item js-sliderItem">
+    </li>
+    <li class="b-slider__item js-sliderItem" <!-- data-bg="img/blocks/b-testimonials/b-testimonials-bg--BrandName-1.jpg" --> >
       <div class="b-slider__ill">
         <a href="#" class="b-slider__link">
           <img src="#" alt="" class="b-slider__image">
-        </a>        
+        </a>
       </div>
-    </li>           
+    </li>
   </ul>
   <div class="b-slider__pager js-sliderPager"></div>
   <div class="b-slider__controls">
-    <div class="b-slider__control -type_prev js-sliderControl">←</div>
-    <div class="b-slider__control -type_next js-sliderControl">→</div>
+    <div class="b-slider__control -type_prev js-sliderControl">〈</div>
+    <div class="b-slider__control -type_next js-sliderControl">〉</div>
   </div>
 </section>
