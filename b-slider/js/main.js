@@ -18,7 +18,7 @@ function initMainSlider(){
   });
   /* Change slider bg on slide change
   $('.js-slider').on('cycle-before', function(event, optionHash, outgoingSlideEl, incomingSlideEl, forwardFlag) {
-    $('.js-sliderBg').css('background-image','url('+incomingSlideEl.dataset.bg+')');
+    $('.js-sliderBg').css('background-image','url('+$(incomingSlideEl).data('bg') + ')');
   });
   */
 }
