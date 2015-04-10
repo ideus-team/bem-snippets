@@ -16,22 +16,10 @@
     width: 100%; // because after slider initialize &__item will be pos:abs
     // DON'T Set height because you can't use autoHeight: 'calc'!
   }
-  &__link {
-    display: block;
-    height: 100%;
-  }
-  &__ill {
-    overflow: hidden;
-  }
-  &__image {
-    display: block;
-    max-width: 100%;
-    max-height: 100%;
-  }
   &__pager {
     position: absolute;
     z-index: 101;
-    bottom: -70px;
+    bottom: -20px;
     left: 50%;
     transform: translateX(-50%);
 
@@ -68,13 +56,43 @@
     position: absolute;
     z-index: 250;
     top: 50%;
+    margin-top: -47px;
+    width: 33px;
+    height: 95px;
     transform: translateY(-50%);
+    &:before,
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 50%;
+      width: 1px;
+      background: #5d546d;
+    }
+    &:after {top: 50%;}
 
     &.-type_prev {
-      left: 5px;
+      left: -25px;
+      &:before {
+        transform: skew(150deg, 0deg);
+        transform-origin: bottom left;
+      }
+      &:after {
+        transform: skew(-150deg, 0deg);
+        transform-origin: top left;
+      }
     }
     &.-type_next {
-      right: 5px;
+      right: -25px;
+      &:before {
+        transform: skew(30deg, 0deg);
+        transform-origin: top right;
+      }
+      &:after {
+        transform: skew(-30deg, 0deg);
+        transform-origin: bottom right;
+      }
     }
   }
 }
