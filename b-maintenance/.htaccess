@@ -1,0 +1,6 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteBase /
+#RewriteCond %{REMOTE_ADDR} !^00\.00\.00\.00
+RewriteCond %{REQUEST_URI} !^/maintenance.php [NC]
+RewriteRule .* /maintenance.php [R,L]
