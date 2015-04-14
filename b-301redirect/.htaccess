@@ -1,0 +1,4 @@
+RewriteCond %{REQUEST_FILENAME} robots.txt$ [NC]
+RewriteRule ^([^/]+) $1 [L]
+RewriteCond %{HTTP_HOST} !^www\.site\.com
+RewriteRule ^(.*)$ http://www.newsite.com/$1 [R=301,L]
