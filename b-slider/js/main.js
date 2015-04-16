@@ -19,8 +19,12 @@ function initMainSlider(){
   /* Change slider bg on slide change
   $('.js-slider').on('cycle-before', function(event, optionHash, outgoingSlideEl, incomingSlideEl, forwardFlag) {
     $('.js-sliderBg').animate({'background-position-x': '300%'}, 500, function() {
-      $('.js-sliderBg').css('background-image','url('+$(incomingSlideEl).data('bg') + ')');
-      $('.js-sliderBg').css('background-position-x','50%');
+        $('.js-sliderBg').css('background-image','url('+$(incomingSlideEl).data('bg') + ')');
+        $('.js-sliderOverlay').css('background-color','#fff');
+        $('.js-sliderBg').css('background-position-x','50%');
+        $('.js-sliderOverlay').animate({
+          backgroundColor: 'transparent'
+        }, 1000);
     });
   });
   */
