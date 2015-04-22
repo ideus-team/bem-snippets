@@ -1,0 +1,82 @@
+/**
+* @subsection Main Site Search
+*/
+.l-form {
+  width: 640px;
+}
+.b-form {
+  position: relative;
+  padding: 70px 85px 80px;
+  text-align: center;
+  &__controls {
+    @include clearfix;
+    margin-top: 55px;
+    text-align: left;
+    
+    &:first-child {
+      margin-top: 0;
+    }
+    
+    &.-type_helpers {
+      margin-top: 20px;
+    }
+  }
+  &__control {
+    margin-left: 110px;
+  }
+  &__label {
+    float: left;
+    width: 110px;
+    text-transform: uppercase;
+    line-height: 30px;
+    
+    &.-type_remember {
+      float: left;
+      width: auto;
+    }
+  }
+  &__field {
+    box-sizing: border-box;
+    display: block;
+    margin: 0;
+    padding: 0 10px 5px;
+    width: 100%;
+    height: 30px;
+    border: 0;
+    border: 1px solid #ccc;
+    background: #fff;
+  }
+  &__link {
+    color: inherit;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+    
+    &.-type_hint {
+       font-size: 12px;
+    }
+    &.-type_registration {
+      display: block;
+      margin-top: 30px;
+      text-transform: uppercase;
+    }
+    &.-align_right {
+      float: right;
+    }
+  }
+  &__button {
+    display: block;
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    border: 1px solid #ccc;
+    background-color: transparent;
+    text-align: center;
+    cursor: pointer;
+    
+    &:hover {
+      border-color: #666;
+    }
+  }
+}
