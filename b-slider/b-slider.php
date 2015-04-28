@@ -1,4 +1,4 @@
-<section class="js-sliderBg">
+<section class="-type_testimonials js-sliderBg">
   <div class="js-sliderOverlay">
 
     <section class="l-slider">

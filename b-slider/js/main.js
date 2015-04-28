@@ -3,12 +3,12 @@ $(document).ready(function(){
 });
 
 function initMainSlider(){
-  $('.js-slider').cycle({
-    slides: '.js-sliderItem',
+  $('.js-slider.-type_testimonials').cycle({
+    slides: '.-type_testimonials .js-sliderItem',
+    prev : '.-type_testimonials .-type_prev.js-sliderControl',
+    next : '.-type_testimonials .-type_next.js-sliderControl',
+    pager: '.-type_testimonials .js-sliderPager',
     fx: 'scrollHorz',
-    prev : '.-type_prev.js-sliderControl',
-    next : '.-type_next.js-sliderControl',
-    pager: '.js-sliderPager',
     pagerTemplate: '<span class="b-slider__page">&bull;</span>',
     swipe: true,
     autoHeight: 'calc',
