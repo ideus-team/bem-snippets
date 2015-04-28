@@ -3,11 +3,11 @@ $(document).ready(function(){
 });
 
 function initMainSlider(){
-  $('.js-slider.-type_testimonials').cycle({
-    slides: '.-type_testimonials .js-sliderItem',
-    prev : '.-type_testimonials .-type_prev.js-sliderControl',
-    next : '.-type_testimonials .-type_next.js-sliderControl',
-    pager: '.-type_testimonials .js-sliderPager',
+  $('.-type_sometype .js-slider').cycle({
+    slides: '.js-sliderItem',
+    prev  : '.-type_prev.js-sliderControl',
+    next  : '.-type_next.js-sliderControl',
+    pager : '.js-sliderPager',
     fx: 'scrollHorz',
     pagerTemplate: '<span class="b-slider__page">&bull;</span>',
     swipe: true,
@@ -17,12 +17,12 @@ function initMainSlider(){
     loader: 'wait'
   });
   /* Change slider bg on slide change
-  $('.js-slider').on('cycle-before', function(event, optionHash, outgoingSlideEl, incomingSlideEl, forwardFlag) {
-    $('.js-sliderBg').animate({'background-position-x': '300%'}, 500, function() {
-        $('.js-sliderBg').css('background-image','url('+$(incomingSlideEl).data('bg') + ')');
-        $('.js-sliderOverlay').css('background-color','#fff');
-        $('.js-sliderBg').css('background-position-x','50%');
-        $('.js-sliderOverlay').animate({
+  $('.-type_sometype .js-slider').on('cycle-before', function(event, optionHash, outgoingSlideEl, incomingSlideEl, forwardFlag) {
+    $('.js-sliderBg.-type_sometype').animate({'background-position-x': '300%'}, 500, function() {
+        $('.-type_sometype.js-sliderBg').css('background-image','url('+$(incomingSlideEl).data('bg') + ')');
+        $('.-type_sometype .js-sliderOverlay').css('background-color','#fff');
+        $('.-type_sometype.js-sliderBg').css('background-position-x','50%');
+        $('.-type_sometype .js-sliderOverlay').animate({
           backgroundColor: 'transparent'
         }, 1000);
     });
