@@ -1,23 +1,23 @@
-<section class="-type_testimonials">
+<section class="-type_testimonials js-sliderBg">
   <div class="js-sliderOverlay">
 
     <section class="l-slider">
       <ul class="b-slider js-slider">
-        <li class="b-slider__item js-sliderItem">
+        <li class="b-slider__item js-sliderItem" data-bg="img/blocks/b-testimonials/b-testimonials-bg--BrandName-1.jpg">
           <div class="b-slider__ill">
             <a href="#" class="b-slider__link">
               <img src="#" alt="" class="b-slider__image">
             </a>
           </div>
         </li>
-        <li class="b-slider__item js-sliderItem">
+        <li class="b-slider__item js-sliderItem" data-bg="img/blocks/b-testimonials/b-testimonials-bg--BrandName-1.jpg">
           <div class="b-slider__ill">
             <a href="#" class="b-slider__link">
               <img src="#" alt="" class="b-slider__image">
             </a>
           </div>
         </li>
-        <li class="b-slider__item js-sliderItem">
+        <li class="b-slider__item js-sliderItem" data-bg="img/blocks/b-testimonials/b-testimonials-bg--BrandName-1.jpg">
           <div class="b-slider__ill">
             <a href="#" class="b-slider__link">
               <img src="#" alt="" class="b-slider__image">
