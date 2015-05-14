@@ -1,82 +1,88 @@
 /**
-* @subsection Main Site Search
+* @section Form
 */
+
 .l-form {
-  width: 640px;
+  margin-top: 150px;
 }
 .b-form {
   position: relative;
-  padding: 70px 85px 80px;
+  margin: 0 auto;
+  padding: 40px 50px 50px;
+  width: 327px;
+  border: 1px solid #e9e9e9;
+  border-radius: 5px;
+  box-shadow: 0 1px 0 #dbdbdb;
   text-align: center;
+  font: 13px 'Open Sans', sans-serif;
+  
   &__controls {
-    @include clearfix;
-    margin-top: 55px;
+    margin-top: 20px;
     text-align: left;
     
     &:first-child {
       margin-top: 0;
-    }
-    
-    &.-type_helpers {
-      margin-top: 20px;
-    }
-  }
-  &__control {
-    margin-left: 110px;
-  }
-  &__label {
-    float: left;
-    width: 110px;
-    text-transform: uppercase;
-    line-height: 30px;
-    
-    &.-type_remember {
-      float: left;
-      width: auto;
     }
   }
   &__field {
     box-sizing: border-box;
     display: block;
     margin: 0;
-    padding: 0 10px 5px;
+    padding: 0 15px;
     width: 100%;
-    height: 30px;
-    border: 0;
-    border: 1px solid #ccc;
+    height: 45px;
+    border: 1px solid #dedede;
+    border-radius: 5px;
     background: #fff;
+    font-size: 14px;
+    
+    &:focus {
+      outline: none;
+      border-color: #6aaddb;
+      box-shadow: 0 0 20px #6aaddb;
+      box-shadow: 0 0 20px rgba(#6aaddb, .3);
+    }
   }
   &__link {
-    color: inherit;
+    display: inline-block;
+    margin-top: 20px;
+    color: #3c90be;
     text-decoration: none;
     &:hover {
       text-decoration: underline;
-    }
-    
-    &.-type_hint {
-       font-size: 12px;
-    }
-    &.-type_registration {
-      display: block;
-      margin-top: 30px;
-      text-transform: uppercase;
-    }
-    &.-align_right {
-      float: right;
     }
   }
   &__button {
     display: block;
     width: 100%;
-    height: 50px;
+    height: 47px;
     margin: 0;
-    border: 1px solid #ccc;
-    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    background-color: #3c90be;
+    color: #fff;
     text-align: center;
+    text-decoration: none;
+    font: 600 16px/47px 'Open Sans', sans-serif;
     cursor: pointer;
+    transition: background-color .2s;
     
     &:hover {
-      border-color: #666;
+      background-color: #327fa8;
     }
+    
+    &.-color_light {
+      background-color: #ebf4f8;
+      color: #1a171b;
+      
+      &:hover {
+        background-color: #b6d6e5;
+      }
+    }
+  }
+  &__footer {
+    margin-top: 24px;
+    padding-top: 25px;
+    border-top: 1px solid #ededed;
   }
 }

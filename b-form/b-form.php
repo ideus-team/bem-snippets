@@ -1,35 +1,33 @@
- <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
- <script src="js/scripts.js"></script>
- <link rel="stylesheet" href="css/main.css" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="js/scripts.js"></script>
+<link rel="stylesheet" href="css/main.css" />
 
- <div class="l-form">
+<div class="l-form">
   <form class="b-form js-validation" action="" method="post">
+    <div class="b-form__header">
+      <img src="img/logo.png" alt="">
+    </div>
+
     <div class="b-form__controls">
-      <label for="name" class="b-form__label">Username :</label>
       <div class="b-form__control">
-        <input id="name" class="b-form__field" type="text" name="name" required="">
+        <input class="b-form__field" type="email" placeholder="Email" required>
       </div>
     </div>
-    
+
     <div class="b-form__controls">
-      <label for="password" class="b-form__label">Password:</label>
       <div class="b-form__control">
-        <input id="password" class="b-form__field" type="password" name="password" required="">
+        <input class="b-form__field" type="password" placeholder="Password" required>
       </div>
     </div>
-    
-    <div class="b-form__controls -type_helpers">
-      <div class="b-form__control">
-        <label class="b-form__label -type_remember">
-          <input type="checkbox"> Remember me
-        </label>
-        <a href="" class="b-form__link -type_hint -align_right">Forgot Password?</a>
-      </div>
-    </div>
+
     <div class="b-form__controls -type_submit">
       <div class="b-form__control">
-        <button type="submit" class="b-form__button">Submit</button>
+        <button type="submit" class="b-form__button">Log In</button>
       </div>
+    </div>
+    <a href="#" class="b-form__link">Forgot your email address or password?</a>
+    <div class="b-form__footer">
+      <a class="b-form__button -color_light" href="signup.html">Sign Up</a>
     </div>
   </form>
 </div>
