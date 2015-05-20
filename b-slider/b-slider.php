@@ -1,5 +1,4 @@
 <section class="-type_testimonials">
-  <div class="js-sliderOverlay">
 
     <section class="l-slider">
       <ul class="b-slider js-slider">
@@ -32,5 +31,4 @@
       </div>
     </section>
 
-</div>
 </div>
