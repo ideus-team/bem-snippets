@@ -3,18 +3,29 @@
     <section class="l-slider">
       <ul class="b-slider js-slider">
         <li class="b-slider__item js-sliderItem">
-          <div class="b-slider__text">
-            Lorem ipsum
+          <div class="b-slide">
+            <div class="b-slide__header">Trip Ratings Reports</div>
+            <div class="b-slide__subheader">Visually Rate a Horse's Overall Performance</div>
+            <div class="b-slide__text">
+              With our OPTIXNotes, Equilytix has created a new, interpretive methodology for visually rating a horse’s overall performance or trip. At Equilytix, we’ve tapped the vast knowledge of our experts to actually give an interpretation (grade) of the horse’s performance and what that interpretation (grade) means to the horse’s overall form or condition.
+            </div>
+            <div class="b-slide__buttons">
+              <a href="#" class="b-btn">Learn more</a>
+              <a href="#" class="b-btn">View sample</a>
+            </div>
           </div>
         </li>
         <li class="b-slider__item js-sliderItem">
-          <div class="b-slider__text">
-            Lorem ipsum
-          </div>
-        </li>
-        <li class="b-slider__item js-sliderItem">
-          <div class="b-slider__text">
-            Lorem ipsum
+          <div class="b-slide">
+            <div class="b-slide__header">Trip Ratings Reports</div>
+            <div class="b-slide__subheader">Visually Rate a Horse's Overall Performance</div>
+            <div class="b-slide__text">
+              With our OPTIXNotes, Equilytix has created a new, interpretive methodology for visually rating a horse’s overall performance or trip. At Equilytix, we’ve tapped the vast knowledge of our experts to actually give an interpretation (grade) of the horse’s performance and what that interpretation (grade) means to the horse’s overall form or condition.
+            </div>
+            <div class="b-slide__buttons">
+              <a href="#" class="b-btn">Learn more</a>
+              <a href="#" class="b-btn">View sample</a>
+            </div>
           </div>
         </li>
       </ul>
