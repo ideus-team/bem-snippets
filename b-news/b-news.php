@@ -28,10 +28,12 @@
             </address>
           </div>
         </header>
-        <div class="b-post__content b-text entry-content e-content" itemprop="description articleBody">
+        <div class="b-post__summary b-text entry-summary p-summary" itemprop="description">
+          In which I extoll the virtues of using microformats.
+        </div>
+        <div class="b-post__content b-text entry-content e-content" itemprop="articleBody">
           <p>Welcome to WordPress. This is your first post. Edit or delete it, then start blogging!</p>
         </div>
-        <!-- .entry-content -->
         <footer class="b-post__meta">
           <span class="b-post__metaText">Posted</span>
           <span class="b-post__metaLinks -type_category">
