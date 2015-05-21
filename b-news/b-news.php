@@ -38,7 +38,7 @@
           <span class="b-post__metaText">Posted</span>
           <span class="b-post__metaLinks -type_category">
             <span class="b-post__metaLinksText">in</span>
-            <a class="b-post__metaLink -type_category" href="http://equilytix.ideus.biz/category/uncategorized/" rel="category tag">Uncategorized</a>
+            <a class="b-post__categoryLink -type_category" href="http://equilytix.ideus.biz/category/uncategorized/" rel="category tag">Uncategorized</a>
             <a class="b-post__commentsLink" href="http://equilytix.ideus.biz/hello-world/#comments">1 Comment</a>
             <a class="b-post__editLink" href="http://equilytix.ideus.biz/wp-admin/post.php?post=1&amp;action=edit">Edit</a>
           </span>
