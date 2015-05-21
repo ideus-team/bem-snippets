@@ -1,0 +1,18 @@
+/**
+* @subsection Footer Logo
+*/
+
+.b-footerLogo {
+
+  &__link {
+
+  }
+  &__img {
+
+  }
+
+  &.b-siteFooter__logo {
+    @include aligncenterX;
+    bottom: 0;
+  }
+}
