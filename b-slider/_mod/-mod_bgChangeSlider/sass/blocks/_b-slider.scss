@@ -65,6 +65,7 @@
     cursor: pointer;
   }
   &__control {
+    @include ir;
     position: absolute;
     z-index: 250;
     top: 50%;
@@ -72,6 +73,7 @@
     width: 33px;
     height: 95px;
     transform: translateY(-50%);
+
     &:before,
     &:after {
       content: '';
