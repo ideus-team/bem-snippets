@@ -1,7 +1,7 @@
 function initGoogleMap() {
 
   // Main options
-  var mapCanvas = document.getElementById('mapCanvas');
+  var mapCanvas = document.getElementById('googleMap');
   var mapOptions = {
     center: new google.maps.LatLng(36.472832, -99.525440),
     zoom: 12,
@@ -12,23 +12,23 @@ function initGoogleMap() {
   var map = new google.maps.Map(mapCanvas, mapOptions);
 
   // Markers
-  var simpleMarker = new google.maps.MarkerImage('img/blocks/b-googleMap/mapCanvas-marker.png',
+  var simpleMarker = new google.maps.MarkerImage('/img/blocks/b-googleMap/mapCanvas-marker.png',
                      new google.maps.Size(80, 80), //size
                      new google.maps.Point(0, 0), //origin point
                      new google.maps.Point(40, 40)); // offset point
 
-  var activeMarker = new google.maps.MarkerImage('img/blocks/b-googleMap/mapCanvas-active-marker.png',
+  var activeMarker = new google.maps.MarkerImage('/img/blocks/b-googleMap/mapCanvas-active-marker.png',
                      new google.maps.Size(124, 124), //size
                      new google.maps.Point(0, 0), //origin point
                      new google.maps.Point(62, 62)); // offset point
 
   var locations = [
     // [title, coordinate, coordinate, zIndex, infoLocation, infoPhone, infoEmail]
-    ['Lorem Ipsum', 36.493949, -99.718731, 4, '1112-1 Island Drive,<br/> Suite 99 Redwood City, CA 99999', '+555 005 505 050', 'info@dentaltheme.com', 'img/blocks/b-googleMap/location-ill.jpg'],
-    ['Dolor Sit Amet', 36.450052, -99.603374, 5, '1112-2 Island Drive,<br/> Suite 99 Redwood City, CA 99999', '+555 005 505 050', 'info@dentaltheme.com', 'img/blocks/b-googleMap/location-ill.jpg'],
-    ['Mutat Inciderint', 36.472832, -99.525440, 3, '1112-3 Island Drive,<br/> Suite 99 Redwood City, CA 99999', '+555 005 505 050', 'info@dentaltheme.com', 'img/blocks/b-googleMap/location-ill.jpg'],
-    ['Sadipscing', 36.407788, -99.419010, 2, '1112-4 Island Drive,<br/> Suite 99 Redwood City, CA 99999', '+555 005 505 050', 'info@dentaltheme.com', 'img/blocks/b-googleMap/location-ill.jpg'],
-    ['Numquam', 36.473522, -99.347599, 1, '1112-5 Island Drive,<br/> Suite 99 Redwood City, CA 99999', '+555 005 505 050', 'info@dentaltheme.com', 'img/blocks/b-googleMap/location-ill.jpg']
+    ['Lorem Ipsum', 36.493949, -99.718731, 4, '1112-1 Island Drive,<br/> Suite 99 Redwood City, CA 99999', '+555 005 505 050', 'info@dentaltheme.com', '/img/blocks/b-googleMap/location-ill.jpg'],
+    ['Dolor Sit Amet', 36.450052, -99.603374, 5, '1112-2 Island Drive,<br/> Suite 99 Redwood City, CA 99999', '+555 005 505 050', 'info@dentaltheme.com', '/img/blocks/b-googleMap/location-ill.jpg'],
+    ['Mutat Inciderint', 36.472832, -99.525440, 3, '1112-3 Island Drive,<br/> Suite 99 Redwood City, CA 99999', '+555 005 505 050', 'info@dentaltheme.com', '/img/blocks/b-googleMap/location-ill.jpg'],
+    ['Sadipscing', 36.407788, -99.419010, 2, '1112-4 Island Drive,<br/> Suite 99 Redwood City, CA 99999', '+555 005 505 050', 'info@dentaltheme.com', '/img/blocks/b-googleMap/location-ill.jpg'],
+    ['Numquam', 36.473522, -99.347599, 1, '1112-5 Island Drive,<br/> Suite 99 Redwood City, CA 99999', '+555 005 505 050', 'info@dentaltheme.com', '/img/blocks/b-googleMap/location-ill.jpg']
   ];
 
   var markers = [], infoWindows = [];
