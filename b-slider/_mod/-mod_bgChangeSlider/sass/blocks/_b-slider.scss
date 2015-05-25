@@ -91,6 +91,10 @@
       width: 1px;
       background: #5d546d;
     }
+    &:hover:before,
+    &:hover:after {
+      width: 2px;
+    }
     &:after {top: 50%;}
 
     &.-type_prev {
