@@ -34,14 +34,21 @@
     bottom: -20px;
     left: 50%;
     transform: translateX(-50%);
-
+    line-height: 1;
     text-align: center;
+
+    &.-type_static {
+      position: static;
+      clear: both;
+      transform: none;
+      margin: 30px 0;
+    }
   }
   &__page {
     position: relative;
     z-index: 2;
     display: inline-block;
-    vertical-align: top;
+    vertical-align: middle;
     margin: 0 5px;
 
     background-color: #9B95A4;
