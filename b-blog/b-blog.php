@@ -1,7 +1,7 @@
 <div class="l-blog">
     <div class="b-blog hfeed h-feed" itemscope="" itemtype="http://schema.org/Blog">
-
-      <article class="b-post h-entry hentry" itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting">
+      <div class="b-blog__header">Blog Name</div>
+      <article class="b-blog__item b-post h-entry hentry" itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting">
         <header class="b-post__header entry-header">
           <h1 class="b-post__title entry-title p-name" itemprop="name headline">
             <a class="b-post__url u-url url" href="http://equilytix.ideus.biz/hello-world/" title="Permalink to Hello world!" rel="bookmark" itemprop="url">

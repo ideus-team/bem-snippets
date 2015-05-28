@@ -1,15 +1,36 @@
 /**
 * @section Blog
 */
-.l-blog {}
-.b-blog {}
-.b-blog__item {}
-.b-blog__header {}
-.b-blog__img {
-    img {}
+.l-blog {
+
 }
-.b-blog__content {
-    a {}
-    img {}
+.b-blog {
+
+  &__header {
+
+  }
+  &__item {
+
+  }
 }
-.b-blog__author {}
+
+.b-post {
+  &__titler {
+
+  }
+  &__url {
+
+  }
+  &__publishedTime {
+
+  }
+  &__authorName {
+
+  }
+  &__summary {
+
+  }
+  &__content {
+
+  }
+}
