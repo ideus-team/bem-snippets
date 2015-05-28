@@ -1,7 +1,4 @@
-<div class="l-news">
-    <div class="b-news hfeed h-feed" itemscope="" itemtype="http://schema.org/Blog">
-
-      <article class="b-post h-entry hentry" itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting">
+      <article class="b-post h-entry hentry" itemscope="" itemtype="http://schema.org/NewsArticle">
         <header class="b-post__header entry-header">
           <h1 class="b-post__title entry-title p-name" itemprop="name headline">
             <a class="b-post__url u-url url" href="http://equilytix.ideus.biz/hello-world/" title="Permalink to Hello world!" rel="bookmark" itemprop="url">
@@ -44,6 +41,3 @@
           </span>
         </footer>
       </article>
-
-    </div>
-</div>

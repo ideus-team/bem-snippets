@@ -1,15 +1,23 @@
 /**
 * @section News
 */
-.l-news {}
-.b-news {}
-.b-news__item {}
-.b-news__header {}
-.b-news__img {
-    img {}
+.b-post {
+  &__titler {
+
+  }
+  &__url {
+
+  }
+  &__publishedTime {
+
+  }
+  &__authorName {
+
+  }
+  &__summary {
+
+  }
+  &__content {
+
+  }
 }
-.b-news__content {
-    a {}
-    img {}
-}
-.b-news__author {}
