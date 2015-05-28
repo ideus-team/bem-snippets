@@ -56,9 +56,9 @@ Our BEM-based html/css/js library
 
   Реализован js код для ссылки `<a class="j-eventNewsMore" href="">Подробнее</a>`. При клике на ссылку "Подробнее", необходимый блок розворачивается на всю свою высоту.
 
-13. [**b-news**](https://github.com/ideus-interactive/bem-snippets/tree/master/b-news)
+13. [**b-blog**](https://github.com/ideus-interactive/bem-snippets/tree/master/b-blog)
 
-  HTML-разметка для независимого блока новостей с использованием микроформатов.
+ Лента блога с Microdata + Microformats-1 + Microformats-2
 
 14. [**b-popup**](https://github.com/ideus-interactive/bem-snippets/tree/master/b-popup)
 
@@ -244,3 +244,6 @@ Fancybox-попап
 
 **js-googleMap**
 Карта Google через API3, со стилизацией цветов, с маркерами, кастомными балунами с текстом и фото.
+
+**b-news**
+Отдельный пост или новость с Microdata + Microformats-1 + Microformats-2
