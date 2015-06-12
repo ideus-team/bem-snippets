@@ -1,0 +1,31 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# CLIENT
+
+    Client Company Name -- http://client-site-name.com
+
+# DEVELOPER
+
+  Company: Net-Craft.com Inc.
+  URL: http://net-craft.com
+  Twitter: @netcraftmedia
+  Facebook: http://www.facebook.com/netcraftmedia
+  Blog: http://net-craft.com/blog/
+
+# TEAM
+    Denis Demidenko  : PM
+    %Author Name%    : PHP Team Lead
+    Igor Zenich      : Front-End Team Lead
+    %Author Name%    : Designer
+    %Author Name%    : PHP Developer
+    %Author Name%    : Front-End Developer
+
+# THANKS
+
+    HTML5 Boilerplate Team
+    BEM TEAM
+
+# TECHNOLOGY COLOPHON
+
+    BEM, Grunt, SASS, Compass, MobileDetect, Autoprefixer
