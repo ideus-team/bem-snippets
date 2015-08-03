@@ -252,4 +252,4 @@ Fancybox-попап
 Single page JS (hashchange & other funcs)
 
 **php-geo**
-Get Country and City by IP
+Sypex Geo — Get Country and City by IP
