@@ -247,3 +247,9 @@ Fancybox-попап
 
 **b-news**
 Отдельный пост или новость с Microdata + Microformats-1 + Microformats-2
+
+**js-fullpage**
+Single page JS (hashchange & other funcs)
+
+**php-geo**
+Get Country and City by IP
