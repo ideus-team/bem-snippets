@@ -1,3 +1,6 @@
+Options +FollowSymLinks
+RewriteEngine on
+
 RewriteCond %{REQUEST_FILENAME} robots.txt$ [NC]
 RewriteRule ^([^/]+) $1 [L]
 
