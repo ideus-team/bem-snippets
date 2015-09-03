@@ -1,0 +1,56 @@
+/**
+* @section pagination
+*/
+.l-pagination {
+  margin: 34px 0 0;
+}
+.b-pagination {
+  text-align: right;
+  font-size: 14px;
+  color: #c7cacf;
+  
+  &__list {
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1;
+    color: #c7cacf;
+    list-style: none;
+    text-align: center;
+  }
+  
+  &__item {
+    display: inline-block;
+    margin: 4px 0;
+    vertical-align: middle;
+  }
+  &__link {
+    display: block;
+    padding: 8px 13px;
+    border-radius: 6px;
+    color: #eb6854;
+    
+    &:hover,
+    &:active {
+      background: #eee;
+      color: #eb6854;
+      text-decoration: none;
+    }
+    
+    &:focus {
+      outline: 1px dotted #eb6854;
+    }
+    
+    &.-type_prev,
+    &.-type_next {
+      padding: 6px 13px 12px;
+      font-size: 1.2em;
+      line-height: 0.83em;
+    }
+    &.-state_current {
+      background: #eb6854;
+      color: #fff;
+    }
+  }
+}
