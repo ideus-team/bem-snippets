@@ -42,14 +42,14 @@ function loadSocialSharingButtons() {
     js.src = "//connect.facebook.net/ru_RU/sdk.js#xfbml=1&appId=FB-API-ID&version=v2.0";
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));
-          
+
 
   // vk button
   $.getScript("//userapi.com/js/api/openapi.js?115", function(data, textStatus, jqxhr) {
     VK.init({apiId: VK-API-ID, onlyWidgets: true});
     VK.Widgets.Like("vk_like", {type: "button", height: 20});
   });
-        
+
 
   // odnoklassniki button
   // @url: http://apiok.ru/wiki/pages/viewpage.action?pageId=42476656

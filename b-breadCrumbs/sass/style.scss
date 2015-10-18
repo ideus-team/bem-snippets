@@ -4,12 +4,12 @@
 .b-breadCrumbs{margin:0; padding:0; list-style:none;
   &.b-breadCrumbs_marginBottom {margin-top: -3px;}
 }
-.b-breadCrumbs__item{ float:left; padding-left: 7px; 
+.b-breadCrumbs__item{ float:left; padding-left: 7px;
   &:first-child{padding-left:0;
-   .b-breadCrumbs__link{padding-left:0;} 
+   .b-breadCrumbs__link{padding-left:0;}
   }
 }
-.b-breadCrumbs__link{display:block; padding: 0 5px; color:#dd3f37; 
+.b-breadCrumbs__link{display:block; padding: 0 5px; color:#dd3f37;
   &[href]{color:#949494; }
   &:hover{text-decoration:none;}
 }

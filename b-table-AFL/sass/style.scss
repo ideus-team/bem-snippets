@@ -43,7 +43,7 @@ $color1: #a1a1a1;
 }
 .b-table {width: 100%; border-collapse: collapse; text-align: left; }
 
-    
+
 .b-table__row {
   &:first-child {
     .b-table__header {
@@ -60,29 +60,29 @@ $color1: #a1a1a1;
         .b-headCity{}
       }
       &.-name_depDay {width: 102px;}
-      &.-name_retDay {width: 100px;}         
-      &.-space_1 {width:26px; border-left:none; }        
+      &.-name_retDay {width: 100px;}
+      &.-space_1 {width:26px; border-left:none; }
       &.-name_periodSale {width:105px;
-        .b-tableTitle {padding:9px 0 0 4px;}  
+        .b-tableTitle {padding:9px 0 0 4px;}
       }
       &.-name_price{
-        .b-tableTitle {padding:15px 0 11px 30px;} 
-      }                
+        .b-tableTitle {padding:15px 0 11px 30px;}
+      }
     }
   }
   &:last-child {
     .b-table__col {
       &:first-child {border-radius: 0 0 0 6px;}
-      &:last-child {border-radius: 0 0 6px 0;}          
+      &:last-child {border-radius: 0 0 6px 0;}
     }
     .l-info{ border-radius: 0 0 6px 6px;}
   }
-} 
- 
+}
+
 
 .b-tableThead {@extend %gradient1;}
 .b-tableTbody  {
-  &:after {display: none; content:' '; position: absolute; bottom: -4px; left: -4px; z-index: 1; width: 100%; height: 40px; border: 4px solid #E3EDF6; border-radius: 0 0 10px 10px;}     
+  &:after {display: none; content:' '; position: absolute; bottom: -4px; left: -4px; z-index: 1; width: 100%; height: 40px; border: 4px solid #E3EDF6; border-radius: 0 0 10px 10px;}
   .-parity_odd {
     .b-table__col {background: #e6e8ec;}
   }
@@ -91,7 +91,7 @@ $color1: #a1a1a1;
     &:first-child {border-left: none; border-right: none; }
 }
 .b-table__col{color: #00496b; padding:12px 0; background: #f5f6f8; text-align: left; font: 13px $fontArial;
-  &:last-child {text-align: right;}        
+  &:last-child {text-align: right;}
   &:first-child {width: 130px;}
   &:last-child,
   &.-position_last {text-align: right;}

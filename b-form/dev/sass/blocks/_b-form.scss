@@ -15,11 +15,11 @@
   box-shadow: 0 1px 0 #dbdbdb;
   text-align: center;
   font: 13px 'Open Sans', sans-serif;
-  
+
   &__controls {
     margin-top: 20px;
     text-align: left;
-    
+
     &:first-child {
       margin-top: 0;
     }
@@ -35,7 +35,7 @@
     border-radius: 5px;
     background: #fff;
     font-size: 14px;
-    
+
     &:focus {
       outline: none;
       border-color: #6aaddb;
@@ -66,15 +66,15 @@
     font: 600 16px/47px 'Open Sans', sans-serif;
     cursor: pointer;
     transition: background-color .2s;
-    
+
     &:hover {
       background-color: #327fa8;
     }
-    
+
     &.-color_light {
       background-color: #ebf4f8;
       color: #1a171b;
-      
+
       &:hover {
         background-color: #b6d6e5;
       }

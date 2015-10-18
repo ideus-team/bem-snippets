@@ -23,7 +23,7 @@ $city    = ($geo) ? strtolower($geo['city']['name_en']) : $CITY_DEFAULT;
 
   if (langPreferred.indexOf('_') !== -1)
       langPreferred = langPreferred.split('_')[0];
-  
+
   $('body').addClass('-langPreferred_'+langPreferred);
 </script>
 
@@ -40,50 +40,50 @@ if ($country == 'ua') {
 <!-- Добавьте классы-модификаторы в ваш <body> -->
 <body class="-country_<?php echo $country; ?> -city_<?php echo $city; ?>">
 
-<?php  
-/* Внутри шаблона вы можете делать любые проверки:  
+<?php
+/* Внутри шаблона вы можете делать любые проверки:
   <?php if ($country == 'ua') :?>
     // Код для Украины
   <?php else: ?>
     // Код для всех остальных
   <?php endif; ?>
-  
+
   <?php if ($city == 'kharkiv') :?>
     //  Код для Харькова
   <?php else: ?>
     // Код для всех остальных
-  <?php endif; ?>  
-*/  
+  <?php endif; ?>
+*/
 ?>
 
-<!--  
+<!--
 <script>
 /* Проверять можно и из JS:
     if ($('body').hasClass('-country_ua')) {
       // Код для Украины
     } else {
       // Код для всех остальных
-    }  
-  
+    }
+
     if ($('body').hasClass('-city_kharkiv')) {
       //  Код для Харькова
     } else {
       // Код для всех остальных
-    }    
+    }
 */
 </script>
 -->
-  
-<!--  
+
+<!--
 <script>
-/* Вы можете проверять не только страну, но и желательный язык для юзера 
+/* Вы можете проверять не только страну, но и желательный язык для юзера
    (ведь физическое нахождение в какой-то стране не значит что желательный язык посетителя — гос язык этой страны.
 
     if ($('body').hasClass('-langPreferred_ua')) {
       // Код для украинского языка
     } else {
       // Код для всех остальных
-    }  
+    }
 */
 </script>
--->  
+-->

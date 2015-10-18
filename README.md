@@ -110,7 +110,7 @@ Our BEM-based html/css/js library
 
 26. [**j-inputNumbStep**](https://github.com/ideus-interactive/bem-snippets/tree/master/j-inputNumbStep)
 
-  Кроссбраузерная реализация  `<input class="b-number" type="number" min="0" max="20" step="1" />` с использованием для инпута стрелочек ![Input number arrows](https://github.com/ideus-interactive/bem-snippets/blob/master/j-inputNumbStep/img/stepper.png?raw=true) при клике на которые число внутри инпута увеличивается или уменьшается. Здесь применяется плагин  	[jquery.fs.stepper.js](https://github.com/ideus-interactive/bem-snippets/blob/master/j-inputNumbStep/js/plugins/jquery.fs.stepper.js) и инициализируем таким образом `$("input[type='number']").stepper();`.
+  Кроссбраузерная реализация  `<input class="b-number" type="number" min="0" max="20" step="1" />` с использованием для инпута стрелочек ![Input number arrows](https://github.com/ideus-interactive/bem-snippets/blob/master/j-inputNumbStep/img/stepper.png?raw=true) при клике на которые число внутри инпута увеличивается или уменьшается. Здесь применяется плагин    [jquery.fs.stepper.js](https://github.com/ideus-interactive/bem-snippets/blob/master/j-inputNumbStep/js/plugins/jquery.fs.stepper.js) и инициализируем таким образом `$("input[type='number']").stepper();`.
 
 27. [**j-outDate**](https://github.com/ideus-interactive/bem-snippets/tree/master/j-outDate)
 

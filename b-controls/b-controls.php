@@ -25,43 +25,43 @@
       <div class="b-controls__control">
         <input type="text" placeholder="Other">
       </div>
-          
-    <div class="b-controls__radio">
-      <div class="b-controls__control">
-        <label class="b-controls__label">
-          <input type="radio" name="radio">Description
-        </label>
+
+      <div class="b-controls__radio">
+        <div class="b-controls__control">
+          <label class="b-controls__label">
+            <input type="radio" name="radio">Description
+          </label>
+        </div>
+        <div class="b-controls__control">
+          <label class="b-controls__label">
+            <input type="radio" name="radio">Description
+          </label>
+        </div>
+        <div class="b-controls__control">
+          <label class="b-controls__label">
+            <input type="radio" name="radio">Description
+          </label>
+        </div>
       </div>
-      <div class="b-controls__control">
-        <label class="b-controls__label">
-          <input type="radio" name="radio">Description
-        </label>
+
+      <div class="b-controls__checkboxes">
+        <div class="b-controls__control">
+          <label class="b-controls__label">
+            <input type="checkbox">Description
+          </label>
+        </div>
+        <div class="b-controls__control">
+          <label class="b-controls__label">
+            <input type="checkbox">Description
+          </label>
+        </div>
+        <div class="b-controls__control">
+          <label class="b-controls__label">
+            <input type="checkbox">Description
+          </label>
+        </div>
       </div>
-      <div class="b-controls__control">
-        <label class="b-controls__label">
-          <input type="radio" name="radio">Description
-        </label>
-      </div>
-    </div>
-      
-    <div class="b-controls__checkboxes">
-      <div class="b-controls__control">
-        <label class="b-controls__label">
-          <input type="checkbox">Description
-        </label>
-      </div>
-      <div class="b-controls__control">
-        <label class="b-controls__label">
-          <input type="checkbox">Description
-        </label>
-      </div>
-      <div class="b-controls__control">
-        <label class="b-controls__label">
-          <input type="checkbox">Description
-        </label>
-      </div>
-    </div>
-    
+
     </div>
   </form>
 

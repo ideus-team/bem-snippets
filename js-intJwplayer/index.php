@@ -1,8 +1,8 @@
 <!DOCTYPE HTML>
 <html lang="en-US">
 <head>
-	<meta charset="UTF-8">
-	<title></title>
+  <meta charset="UTF-8">
+  <title></title>
   <link media="all" rel="stylesheet" href="css/main.css" type="text/css">
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 </head>
@@ -10,7 +10,7 @@
   <div class="b-mediaVideo" id="video1">
     <!--  add video and image -->
     <div id="js-videoItem_1" class="js-videoItem"
-    data-video="http://ib180010.ib-prod.com/p/557781/sp/55778100/serveFlavor/entryId/1_qo6u5obs/v/11/flavorId/1_vpip2s05/name/a.mp4" 
+    data-video="http://ib180010.ib-prod.com/p/557781/sp/55778100/serveFlavor/entryId/1_qo6u5obs/v/11/flavorId/1_vpip2s05/name/a.mp4"
     data-image="img/b-mediaVideoImg-01.jpg">
     </div>
   </div>

@@ -10,6 +10,6 @@
     -
     <span class="b-event__dtend dtend">
       <span class="b-event__valueTitle value-title" title="2015-10-15T21:00-08:00"><time itemprop="endDate" datetime="2015-10-15T19:00-08:00">Oct 15, 9:00PM</time></span>
-    </span> 
+    </span>
   </div>
 </div>
