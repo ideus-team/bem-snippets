@@ -1,6 +1,6 @@
 <div class="l-blog">
   <div class="b-blog hfeed h-feed" itemscope="" itemtype="http://schema.org/Blog">
-    <div class="b-blog__header">Blog Name</div>
+    <div class="b-blog__header" itemprop="description">Blog Name</div>
     <article class="b-blog__item b-post h-entry hentry" itemprop="blogPost" itemscope="" itemtype="http://schema.org/BlogPosting">
       <header class="b-post__header entry-header">
         <h1 class="b-post__title entry-title p-name" itemprop="name headline">
