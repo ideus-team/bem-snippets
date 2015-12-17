@@ -255,4 +255,7 @@ Single page JS (hashchange & other funcs)
 Sypex Geo — Get Country and City by IP
 
 **block-arrows**
-Блок со стрелочками
+Блоки со стрелочкой вниз
+
+**b-foldedCorner**
+Блоки с загнутыми уголками
