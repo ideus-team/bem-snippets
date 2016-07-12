@@ -1,3 +1,7 @@
+/* 
+ * https://github.com/mzubala/jquery-custom-scrollbar
+ */
+
 (function ($) {
 
   $.fn.customScrollbar = function (options, args) {
