@@ -259,3 +259,6 @@ Sypex Geo — Get Country and City by IP
 
 **b-foldedCorner**
 Блоки с загнутыми уголками
+
+**b-customControl**
+Custom checkboxes and radiobuttons WITHOUT JS with BEM-syntax.

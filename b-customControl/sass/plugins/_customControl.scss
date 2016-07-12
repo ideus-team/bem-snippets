@@ -1,0 +1,68 @@
+/*
+    Custom checkboxes
+    based on https://kyusuf.com/post/completely-css-custom-checkbox-radio-buttons-and-select-boxes
+*/
+.b-customControl {
+  $rootParent: &;
+
+  // Label styles
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+
+  // Hide input
+  input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+  }
+
+  // Show custom input
+  &__indicator {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    // Unchecked checkbox
+    #{$rootParent}--checkbox & {
+      background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAAAAABzpdGLAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAABbSURBVBjTY3i708kIBo7+BwGGM4JsKjCwHyJ0gkHlPyoACiljCqlQR2jxRAwhbSYMG8FCKuQIMRJpFjAktJEBmyDD2/mCDEiAUXAGw7eb82fOnDkDCMFgxvxrAGXg4xXgnbNYAAAAAElFTkSuQmCC');
+    }
+
+    // Checked checkbox
+    #{$rootParent}--checkbox input:checked ~ & {
+      background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAAAAABzpdGLAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAACvSURBVBjTVc4xDoMwDAVQi8ELU84QMbH1CD0KB6rUpRJDJJZcoBsbC6JDDsAZmLoxYWMngMIfn76+Df/++TgzsmSDYNBaW1nNIBJW+IHlLD02NyIesXD3VkDwpESpwTwU4DkS03LsqGxCFc3lR+SL2DH5txJPCC8VT8x1kebHEhosnS6epIYuDl4k1lI8m4iOH1ILrldPl9YkT/CFkYLBOg8aWDoDeUwL69y1edy8A1WAwvjBjzGSAAAAAElFTkSuQmCC');
+    }
+
+    // Unchecked radio
+    #{$rootParent}--radio & {
+      background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMjUgMjUiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDI1IDI1OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHN0eWxlIHR5cGU9InRleHQvY3NzIj4uc3Qwe2ZpbGw6I0MzQ0RENDt9PC9zdHlsZT48cGF0aCBjbGFzcz0ic3QwIiBkPSJNMTIuNSwyQzE4LjMsMiwyMyw2LjcsMjMsMTIuNVMxOC4zLDIzLDEyLjUsMjNTMiwxOC4zLDIsMTIuNVM2LjcsMiwxMi41LDIgTTEyLjUsMEM1LjYsMCwwLDUuNiwwLDEyLjVTNS42LDI1LDEyLjUsMjVDMTkuNCwyNSwyNSwxOS40LDI1LDEyLjVTMTkuNCwwLDEyLjUsMEwxMi41LDB6Ii8+PC9zdmc+);
+    }
+
+    // Checked radio
+    #{$rootParent}--radio input:checked ~ & {
+      background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMjUgMjUiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDI1IDI1OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHN0eWxlIHR5cGU9InRleHQvY3NzIj4uc3Qwe2ZpbGw6IzJDMkU4Njt9LnN0MXtmaWxsOiMyOEFCRTI7fTwvc3R5bGU+PHBhdGggY2xhc3M9InN0MCIgZD0iTTE4LjgsOC4yYy0wLjMtMC4zLTAuOC0wLjMtMS4yLDBsLTcuMSw2LjlsLTMuMy0yLjdjLTAuMy0wLjMtMC45LTAuMi0xLjEsMC4xYy0wLjMsMC4zLTAuMiwwLjksMC4xLDEuMWwzLjksMy4yYzAuMiwwLjEsMC4zLDAuMiwwLjUsMC4yYzAuMiwwLDAuNC0wLjEsMC42LTAuMmw3LjYtNy40QzE5LjEsOS4xLDE5LjEsOC42LDE4LjgsOC4yeiIvPjxwYXRoIGNsYXNzPSJzdDEiIGQ9Ik0xMi41LDJDMTguMywyLDIzLDYuNywyMywxMi41UzE4LjMsMjMsMTIuNSwyM1MyLDE4LjMsMiwxMi41UzYuNywyLDEyLjUsMiBNMTIuNSwwQzUuNiwwLDAsNS42LDAsMTIuNVM1LjYsMjUsMTIuNSwyNUMxOS40LDI1LDI1LDE5LjQsMjUsMTIuNVMxOS40LDAsMTIuNSwwTDEyLjUsMHoiLz48L3N2Zz4=);
+    }
+
+    // Disabled state
+    input:disabled ~ & {
+      pointer-events: none;
+      opacity: .6;
+    }
+  }
+}
+
+/* Hover and focus states */
+.customControl:hover input ~ .customControl__indicator,
+.customControl input:focus ~ .customControl__indicator {
+
+}
+
+/* Hover state whilst checked */
+.customControl:hover input:not([disabled]):checked ~ .customControl__indicator,
+.customControl input:checked:focus ~ .customControl__indicator {
+
+}
