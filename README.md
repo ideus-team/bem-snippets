@@ -1,9 +1,8 @@
-bem-snippets
-============
+# bem-snippets
 
 Our BEM-based html/css/js library
 
-##List of bem-snippets
+## List of bem-snippets
 
 1. [**b-accordion**](https://github.com/ideus-interactive/bem-snippets/tree/master/b-accordion)
 
